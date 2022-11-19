@@ -14,38 +14,53 @@
     <title>Kirameki Foods</title>
 </head>
 <body>
-    <header class="header__container">
-        <div class="header_inner">
+    <header class="header l-header">
+        <div class="header__inner">
             <h1 class="header_title">
                 Kirameki Foods
             </h1>
-            <nav class="header__nav">
-                <ul class="nav__inner">
-                    <li>
-                        <a href="#company">会社案内</a>
+            <nav class="header__nav header-nav">
+                <ul class="header-nav__items">
+                    <li class="header-nav__item">
+                        <a class="header-nav__link" href="#company">会社案内</a>
                     </li>
                     <li>
-                        <a href="#brand">ブランド</a>
+                        <a class="header-nav__link" href="#brand">ブランド</a>
                     </li>
-                    <li>
-                        <a href="#sdgs">SDG's</a>
+                    <li class="header-nav__item">
+                        <a class="header-nav__link" href="#sdgs">SDG's</a>
                     </li>
-                    <li>
-                        <a href="#recruit">採用情報</a>
+                    <li class="header-nav__item">
+                        <a class="header-nav__link" href="#recruit">採用情報</a>
                     </li>
-                    <li>
-                        <a href="#ir">投資家情報</a>
+                    <li class="header-nav__item">
+                        <a class="header-nav__link" href="#ir">投資家情報</a>
                     </li>
-                    <li>
-                        <a href="#news">ニュースリリース</a>
+                    <li class="header-nav__item">
+                        <a class="header-nav__link" href="#news">ニュースリリース</a>
                     </li>
                 </ul>
             </nav>
-            <div class="no-pc hamburger-icon">
-                
-            </div>
         </div>
-        
+        <!-- /.header__inner header--pc -->
+        <div class="hamburger js-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- /.hamburger -->
+        <div class="drawer-menu">
+            <div class="drawer-menu__inner">
+            <p class="drawer-menu__logo">Kirameki Foods</p>
+            <ul class="drawer-menu__items">
+                <li class="drawer-menu__item"><a href="#company">会社案内</a></li>
+                <li class="drawer-menu__item"><a href="#brand">ブランド</a></li>
+                <li class="drawer-menu__item"><a href="#sdgs">SDG's</a></li>
+                <li class="drawer-menu__item"><a href="#recruit">採用情報</a></li>
+                <li class="drawer-menu__item"><a href="#ir">投資家情報</a></li>
+                <li class="drawer-menu__item"><a href="#news">ニュースリリース</a></li>
+            </ul>
+        </div>
     </header>
 </body>
 </html>
