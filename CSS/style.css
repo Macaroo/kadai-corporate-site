@@ -1,36 +1,150 @@
-global > color
-------------------------------
-*/
-:root {
-    --color-bg-primary: #524433;
-    --color-bg-secondary: #efede9;
-    --color-bg-black: #000000;
-    --color-bg-white: #ffffff;
-    --color-border-black: #000000;
-    --color-border-white: #ffffff;
-    --color-font-primary: #524433;
-    --color-font-white: #ffffff;
-    --color-font-base: #000000;
+@charset "UTF-8";
+/* リセットCSS
+===================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, button, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
 }
 
-/*!
-global > content-width
-------------------------------
-*/
-:root {
-    --width-content-s: 960px;
-    --width-content: 1080px;
-    --width-content-l: 1366px;
+html {
+    line-height: 1;
 }
 
-/*!
-global > font
-------------------------------
-*/
-:root {
-    --font-family-base: "Noto Sans JP", sans-serif;
-    --font-family-english: "Montserrat", sans-serif;
+ol, ul {
+    list-style: none;
 }
+
+li, dd {
+    list-style-type: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+    vertical-align: middle;
+}
+
+q, blockquote {
+    quotes: none;
+    }
+
+q:before, q:after {
+    content: "";
+    content: none;
+}
+
+blockquote:before, blockquote:after {
+    content: "";
+    content: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+img {
+    border: none;
+    vertical-align: bottom;
+}
+
+/* 基本設定
+===================================== */
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #f3f3f3;
+    color: #3e3e3e;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Droid Sans", sans-serif;
+    line-height: 1.45;
+    font-weight: 500;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.util-ttl {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+.util-ttl {
+    font-size: 3.6rem;
+    }
+}
+
+@media (max-width: 767px) {
+.util-linkBox {
+    text-align: center;
+    }
+}
+
+.util-link {
+    border: solid 1px #3e3e3e;
+    color: #3e3e3e;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    padding: .8em 0;
+    position: relative;
+    text-align: center;
+    -webkit-transition: background-color .2s, color .2s;
+    transition: background-color .2s, color .2s;
+}
+
+.util-link.mod-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .util-link.mod-light:hover {
+        background: #fff;
+        color: #3e3e3e;
+    }
+    .util-link:hover {
+        background: #3e3e3e;
+        color: #fff;
+    }
+}
+
+@media (max-width: 767px) {
+    .util-link {
+        font-size: 1.8rem;
+        margin: 0 auto;
+        max-width: 268px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+}
+
+/* コンテンツスタイル
+===================================== */
+/* header
+---------------------------- */
 
 .header {
     background-color: #ffffff;
