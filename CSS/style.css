@@ -167,3 +167,23 @@ a {
 .header__nav {
     height: inherit;
 }
+
+.top-kv {
+    background-image: url(../img/cover_1_pc.jpg);
+    background-position: 24% center;
+    background-size: cover;
+    height: 648px;
+    position: relative;
+    }
+
+    @media (min-width: 768px) {
+    .top-kv {
+        background-position: center center;
+    }
+}
+
+    @media (max-width: 667px) {
+    .top-kv {
+        height: 660px;
+    }
+}
