@@ -156,10 +156,6 @@ a {
     padding-right: 25px;
     align-items: center;
     height: inherit;
-    @media screen and (max-width: 1366px) and (min-width: 768px)
-    {
-        display: flex;
-    }
 }
 .header__logo {
     margin-right: auto;
