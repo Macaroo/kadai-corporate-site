@@ -1,3 +1,37 @@
+global > color
+------------------------------
+*/
+:root {
+    --color-bg-primary: #524433;
+    --color-bg-secondary: #efede9;
+    --color-bg-black: #000000;
+    --color-bg-white: #ffffff;
+    --color-border-black: #000000;
+    --color-border-white: #ffffff;
+    --color-font-primary: #524433;
+    --color-font-white: #ffffff;
+    --color-font-base: #000000;
+}
+
+/*!
+global > content-width
+------------------------------
+*/
+:root {
+    --width-content-s: 960px;
+    --width-content: 1080px;
+    --width-content-l: 1366px;
+}
+
+/*!
+global > font
+------------------------------
+*/
+:root {
+    --font-family-base: "Noto Sans JP", sans-serif;
+    --font-family-english: "Montserrat", sans-serif;
+}
+
 .header {
     background-color: #ffffff;
     height: 80px;
@@ -8,7 +42,8 @@
     padding-right: 25px;
     align-items: center;
     height: inherit;
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (max-width: 1366px) and (min-width: 768px)
+    {
         display: flex;
     }
 }
