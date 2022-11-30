@@ -46,3 +46,14 @@
         height: 660px;
     }
 }
+
+/* コンテンツスタイル
+===================================== */
+/* drawer
+---------------------------- */
+
+.drawer-menu {
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
