@@ -54,6 +54,5 @@
 
 .drawer-menu {
     display: flex;
-    height: inherit;
     align-items: center;
 }
