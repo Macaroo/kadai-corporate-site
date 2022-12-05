@@ -7,7 +7,7 @@
 
 .header {
     background-color: #ffffff;
-    height: 80px;
+    height: 150px;
 }
 .header__inner {
     display: none;
@@ -33,7 +33,7 @@
     background-size: cover;
     height: 648px;
     position: relative;
-    }
+}
 
     @media (min-width: 768px) {
     .top-kv {
@@ -47,6 +47,15 @@
     }
 }
 
+.top-kv__inner {
+    padding: 36px 792px 633px 108px;
+}
+
+.top-kv__text {
+    text-shadow: 3.5px 3.5px 5px rgba(0, 0, 0, 0.3);
+    color: #ffefef;
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* drawer
@@ -55,4 +64,31 @@
 .drawer-menu {
     display: flex;
     align-items: center;
+}
+
+.drawer__inner {
+
+}
+
+/* コンテンツスタイル
+===================================== */
+/* news
+---------------------------- */
+
+.news-title {
+
+}
+
+.news-item {
+    width: 558px;
+    height: 372px;
+}
+
+.news-items {
+    width: 263px;
+    height: 176px;
+}
+
+.news-items__text {
+    
 }
