@@ -121,13 +121,22 @@
 /* brand
 ---------------------------- */
 .brand-inner {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.brand-item {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     width: 100%;
     margin-top: 27px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.brand-item:not(:nth-child(3n)) {
+    margin-right: 40px;
 }
 
 /* コンテンツスタイル
