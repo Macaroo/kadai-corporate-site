@@ -1,6 +1,0 @@
-[11/15/2022, 10:40:53 PM] layer "news_2.jpg": Duplicate path: news_2.jpg
-[11/15/2022, 10:40:53 PM] layer "news_4.jpg": Duplicate path: news_4.jpg
-[11/15/2022, 10:40:53 PM] layer "twitter.png": Duplicate path: twitter.png
-[11/15/2022, 10:40:53 PM] layer "insta.png": Duplicate path: insta.png
-[11/15/2022, 10:40:53 PM] layer "line.png": Duplicate path: line.png
-[11/15/2022, 10:40:53 PM] layer "facebook.png": Duplicate path: facebook.png
