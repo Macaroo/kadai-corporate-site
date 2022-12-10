@@ -85,11 +85,15 @@
 .news-item {
     width: 558px;
     height: 372px;
+    list-style: none;
 }
 
 .news-items {
     width: 263px;
     height: 176px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .news-items__text {
@@ -100,6 +104,9 @@
 ===================================== */
 /* SDGs
 ---------------------------- */
+.SDGs-item {
+    list-style: none;
+}
 
 /* コンテンツスタイル
 ===================================== */
@@ -141,6 +148,22 @@
 
 /* コンテンツスタイル
 ===================================== */
+/* information
+---------------------------- */
+.information-item {
+    list-style: none;
+}
+
+/* コンテンツスタイル
+===================================== */
+/* release
+---------------------------- */
+.release-item {
+    list-style: none;
+}
+
+/* コンテンツスタイル
+===================================== */
 /* sns
 ---------------------------- */
 .sns-inner {
@@ -151,3 +174,10 @@
 ===================================== */
 /* footer
 ---------------------------- */
+.footer__inner {
+    text-align: center;
+}
+
+.footer-nav__items {
+    list-style: none;
+}
