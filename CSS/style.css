@@ -7,7 +7,10 @@
 
 .header {
     background-color: #ffffff;
-    height: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .header__inner {
     display: none;
@@ -22,6 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style: none;
 }
 .header__nav {
     height: inherit;
