@@ -112,20 +112,55 @@
     list-style: none;
 }
 
+.SDGs-link {
+    width: 241px;
+    height: 57px;
+    margin: 42px 330px 105px 19px;
+    padding: 22px 82px 21px;
+    background-color: #0d5f80;
+    color: #fff;
+    text-align: center;
+}
 /* コンテンツスタイル
 ===================================== */
 /* company
 ---------------------------- */
+.company-inner {
+    width: 556px;
+    height: 370.8px;
+}
+
+.company-title {
+    text-align: center;
+}
 
 /* コンテンツスタイル
 ===================================== */
 /*  IR
 ---------------------------- */
+.IR-inner {
+    width: 555.9px;
+    height: 369.3px;
+}
+
+.IR-title {
+    text-align: center;
+}
 
 /* コンテンツスタイル
 ===================================== */
 /* recruit
 ---------------------------- */
+.recruit-inner {
+    list-style: none;
+}
+
+.recruit-title {
+    text-align: left;
+    width: 144px;
+    height: 35px;
+    margin: 0 449px 31px 0;
+}
 
 /* コンテンツスタイル
 ===================================== */
