@@ -108,6 +108,10 @@
 ===================================== */
 /* SDGs
 ---------------------------- */
+.SDGs-inner {
+    background-color: #f7f7f7;
+}
+
 .SDGs-item {
     list-style: none;
 }
@@ -151,6 +155,10 @@
 ===================================== */
 /* recruit
 ---------------------------- */
+.recruit-inner {
+    background-color: #f7f7f7;
+}
+
 .recruit-inner {
     list-style: none;
 }
