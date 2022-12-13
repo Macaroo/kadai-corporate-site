@@ -96,7 +96,7 @@
     width: 263px;
     height: 176px;
     list-style: none;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
 }
 
