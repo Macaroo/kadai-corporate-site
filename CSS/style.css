@@ -180,7 +180,7 @@
 }
 
 .brand-item {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
