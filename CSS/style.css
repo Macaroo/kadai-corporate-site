@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.html {
+    font-family: 'Noto Sans JP' , 'sans-serif';
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* header
@@ -37,6 +41,9 @@
     }
 }
 
+.drawer-menu__logo {
+    background-image: url(../img/kirameki_foods_logo.png);
+}
     @media (max-width: 667px){
     .drawer-menu__logo {
         width: 185px;
