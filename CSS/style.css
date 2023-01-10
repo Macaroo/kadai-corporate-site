@@ -20,7 +20,6 @@
 }
 
 .header__inner {
-    display: flex;
     padding: 0 122px;
     align-items: center;
     height: inherit;
@@ -30,7 +29,6 @@
     margin: 0 50px 49px 148px;
     width: 293px;
     height: 30px;
-    display: flex;
     align-items: center;
 }
 
