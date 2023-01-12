@@ -82,7 +82,7 @@
     background-image: url(../img/cover_1_pc.jpg);
     background-position: 24% center;
     background-size: cover;
-    height: 648px;
+    height: 768px;
     position: relative;
 }
 
@@ -103,6 +103,8 @@
 }
 
 .top-kv__text {
+    font-size: 36px;
+    font-weight: 900;
     text-shadow: 3.5px 3.5px 5px rgba(0, 0, 0, 0.3);
     color: #ffefef;
 }
