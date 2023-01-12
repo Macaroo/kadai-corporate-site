@@ -71,7 +71,7 @@
 .drawer-menu__logo {
     background-image: url(../img/kirameki_foods_logo.png);
 }
-    @media (max-width: 667px){
+    @media (max-width: 667.98px){
     .drawer-menu__logo {
         width: 185px;
         height: 19px;
@@ -92,7 +92,7 @@
     }
 }
 
-    @media (max-width: 667px) {
+    @media (max-width: 667.98px) {
     .top-kv {
         height: 660px;
     }
