@@ -332,6 +332,22 @@
     text-align: center;
 }
 
+.twitter-icon {
+    margin: 0 90px 0 405px;
+}
+
+.insta-icon {
+    margin-right: 90px;
+}
+
+.line-icon {
+    margin-right: 90px;
+}
+
+.facebook-icon {
+    margin: 0 405px 0 0;
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* footer
