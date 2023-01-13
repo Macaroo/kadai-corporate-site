@@ -109,6 +109,7 @@
     transform: translate(-108px,-186px);
     text-align: left;
     font-size: 36px;
+    width: 100%;
     line-height: 1.75;
     letter-spacing: 0.05em;
     font-weight: 900;
@@ -119,6 +120,7 @@
 @media (max-width: 667.98px) {
     .top-kv__text {
         font-size: 26px;
+        line-height: 45.5px;
     }
 }
 
@@ -180,8 +182,18 @@
 /* news
 ---------------------------- */
 
-.news-title {
+.news-inner {
+    padding: 80px 286px 21.1px 14px;
+}
 
+.news-title {
+    width: 75px;
+    height: 21px;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 0.71;
+    text-align: left;
+    color: #032533;
 }
 
 .news-item {
@@ -199,7 +211,10 @@
 }
 
 .news-items__text {
-    
+    font-size: 16px;
+    line-height: 1.72;
+    text-align: left;
+    color: #524e4d;
 }
 
 /* コンテンツスタイル
@@ -215,7 +230,7 @@
 }
 
 .SDGs-link,
-.recruit-link{
+.recruit-link {
     width: 241px;
     height: 57px;
     margin: 42px 330px 105px 19px;
