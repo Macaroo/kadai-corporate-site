@@ -225,6 +225,16 @@
     background-color: #f7f7f7;
 }
 
+.SDGs-title {
+    width: 75px;
+    height: 21px;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 0.71;
+    text-align: left;
+    color: #032533;
+}
+
 .SDGs-item {
     list-style: none;
 }
@@ -250,6 +260,10 @@
 }
 
 .company-title {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 0.71;
+    color: #032533;
     text-align: center;
 }
 
@@ -263,6 +277,10 @@
 }
 
 .IR-title {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 0.71;
+    color: #032533;
     text-align: center;
 }
 
@@ -272,17 +290,15 @@
 ---------------------------- */
 .recruit-inner {
     background-color: #f7f7f7;
-}
-
-.recruit-inner {
     list-style: none;
 }
 
 .recruit-title {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 0.71;
+    color: #032533;
     text-align: left;
-    width: 144px;
-    height: 35px;
-    margin: 0 449px 31px 0;
 }
 
 /* コンテンツスタイル
@@ -292,6 +308,14 @@
 .brand-inner {
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.brand-title {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 0.71;
+    color: #032533;
+    text-align: center;
 }
 
 .brand-item {
@@ -312,6 +336,15 @@
 ===================================== */
 /* information
 ---------------------------- */
+
+.information-title {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 0.71;
+    color: #032533;
+    text-align: left;
+}
+
 .information-item {
     list-style: none;
 }
@@ -320,6 +353,15 @@
 ===================================== */
 /* release
 ---------------------------- */
+
+.release-title {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 0.71;
+    color: #032533;
+    text-align: left;
+}
+
 .release-item {
     list-style: none;
 }
