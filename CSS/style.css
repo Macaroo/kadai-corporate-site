@@ -80,10 +80,11 @@
 
 .top-kv {
     background-image: url(../img/cover_1_pc.jpg);
-    background-position: 24% center;
+    background-position: center;
     background-size: cover;
-    height: 768px;
-    position: relative;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
 }
 
     @media (min-width: 768px) {
@@ -99,10 +100,16 @@
 }
 
 .top-kv__inner {
-    padding: 36px 792px 633px 108px;
+    position: relative;
+    width: 100%;
+    height: inherit;
 }
 
 .top-kv__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     font-size: 36px;
     font-weight: 900;
     text-shadow: 3.5px 3.5px 5px rgba(0, 0, 0, 0.3);
