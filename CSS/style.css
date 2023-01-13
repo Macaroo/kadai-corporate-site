@@ -39,13 +39,11 @@
 
 .header-nav__items {
     display: flex;
-    align-items: center;
-    height: inherit;
+    justify-content: center;
 }
 
 .header-nav__item {
-    width: 78px;
-    margin: 20px 122px 110px 111px;
+    margin: auto;
     list-style: none;
     height: inherit;
 }
