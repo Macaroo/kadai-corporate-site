@@ -206,7 +206,7 @@
     width: 263px;
     height: 176px;
     list-style: none;
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -264,7 +264,7 @@
     font-weight: 900;
     line-height: 0.71;
     color: #032533;
-    text-align: center;
+    text-align: left;
 }
 
 /* コンテンツスタイル
@@ -281,7 +281,7 @@
     font-weight: 900;
     line-height: 0.71;
     color: #032533;
-    text-align: center;
+    text-align: left;
 }
 
 /* コンテンツスタイル
@@ -315,11 +315,11 @@
     font-weight: 900;
     line-height: 0.71;
     color: #032533;
-    text-align: center;
+    text-align: left;
 }
 
 .brand-item {
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
@@ -374,6 +374,10 @@
     text-align: center;
 }
 
+.sns-title {
+    text-align: center;
+}
+
 .twitter-icon {
     margin: 0 90px 0 405px;
 }
@@ -399,5 +403,12 @@
 }
 
 .footer-nav__items {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav__item {
+    margin: auto;
     list-style: none;
+    height: inherit;
 }
