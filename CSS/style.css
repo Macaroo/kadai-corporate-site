@@ -198,6 +198,8 @@
 .news-item {
     width: 558px;
     height: 372px;
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 
