@@ -195,12 +195,20 @@
     color: #032533;
 }
 
+.news-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .news-item {
     width: 558px;
     height: 372px;
+    list-style: none;
+}
+
+.news-lists {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
 }
 
 .news-items {
