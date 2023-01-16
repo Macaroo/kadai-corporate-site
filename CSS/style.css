@@ -43,7 +43,6 @@
 
 .header-nav__item {
     margin: auto;
-    list-style: none;
     height: inherit;
 }
 
@@ -56,7 +55,6 @@
 }
 
 .drawer-menu {
-    list-style: none;
 }
 
     @media (min-width: 768px){
@@ -229,6 +227,7 @@
 ---------------------------- */
 .SDGs-inner {
     background-color: #f7f7f7;
+    padding: 50px 70px 110px 110px;
 }
 
 .SDGs-title {
@@ -252,12 +251,16 @@
 }
 
 .SDGs-item__text {
+    font-size: 16px;
+    line-height: 1.72;
+    text-align: left;
     margin-bottom: 42px;
+    color: #524e4d;
 }
 
 .SDGs-link,
 .recruit-link {
-    width: 241px;
+    width: 245px;
     height: 57px;
     margin: 42px 330px 105px 19px;
     padding: 22px 82px 21px;
@@ -274,6 +277,7 @@
 .company-inner {
     width: 556px;
     height: 370.8px;
+    padding: 50px 70px 110px 110px;
 }
 
 .company-title {
@@ -292,6 +296,7 @@
 .IR-inner {
     width: 555.9px;
     height: 369.3px;
+    padding: 50px 70px 110px 110px;
 }
 
 .IR-title {
@@ -309,7 +314,7 @@
 ---------------------------- */
 .recruit-inner {
     background-color: #f7f7f7;
-    list-style: none;
+    padding: 50px 70px 110px 110px;
 }
 
 .recruit-title {
@@ -326,8 +331,7 @@
 /* brand
 ---------------------------- */
 .brand-inner {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 50px 70px 110px 110px;
 }
 
 .brand-title {
@@ -358,6 +362,11 @@
 /* information
 ---------------------------- */
 
+.information-inner {
+    padding: 50px 70px 110px 110px;
+    background-color: #f7f7f7;
+}
+
 .information-title {
     font-size: 28px;
     font-weight: 900;
@@ -368,13 +377,17 @@
 }
 
 .information-item {
-    list-style: none;
 }
 
 /* コンテンツスタイル
 ===================================== */
 /* release
 ---------------------------- */
+
+.release-inner {
+    padding: 50px 70px 110px 110px;
+    background-color: #f7f7f7;
+}
 
 .release-title {
     font-size: 28px;
@@ -386,7 +399,6 @@
 }
 
 .release-item {
-    list-style: none;
 }
 
 /* コンテンツスタイル
@@ -432,6 +444,5 @@
 
 .footer-nav__item {
     margin: auto;
-    list-style: none;
     height: inherit;
 }
