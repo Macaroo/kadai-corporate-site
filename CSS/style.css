@@ -19,6 +19,14 @@
     height: 150px;
 }
 
+    @media (max-width: 667.98px){
+    .header {
+        width: 375px;
+        height: 70px;
+        padding: 24px 92px 22px 16px;
+    }
+}
+
 .header__inner {
     padding: 0 122px;
     align-items: center;
@@ -136,6 +144,12 @@
     cursor: pointer;
 }
 
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+}
+
 .hamburger span {
     position: absolute;
     right: 0;
@@ -165,6 +179,12 @@
 .drawer-menu {
     display: flex;
     align-items: center;
+}
+
+@media (min-width: 768px) {
+    .drawer-menu {
+        display: none;
+    }
 }
 
 .drawer__inner {
