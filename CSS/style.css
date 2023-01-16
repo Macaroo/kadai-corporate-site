@@ -229,8 +229,6 @@
 ---------------------------- */
 .SDGs-inner {
     background-color: #f7f7f7;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .SDGs-title {
@@ -244,8 +242,13 @@
     color: #032533;
 }
 
+.SDGs-list {
+    display: flex;
+}
+
 .SDGs-item {
-    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .SDGs-item__text {
@@ -261,6 +264,7 @@
     background-color: #0d5f80;
     color: #fff;
     text-align: center;
+    font-size: 16px;
 }
 
 /* コンテンツスタイル
