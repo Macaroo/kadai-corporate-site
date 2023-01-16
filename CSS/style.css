@@ -343,6 +343,10 @@
     text-align: left;
 }
 
+.js-brand-list {
+    display: flex;
+}
+
 .js-brand-item {
     display: flex;
     flex-wrap: wrap;
