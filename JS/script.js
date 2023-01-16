@@ -17,5 +17,8 @@ $(function () {
 })
 });
 
+// フェードイン
+
+
 //スライダー
 new Swiper('.js-brand');
