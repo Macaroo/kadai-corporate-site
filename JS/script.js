@@ -16,3 +16,6 @@ $(function () {
     }
 })
 });
+
+//スライダー
+new Swiper('.js-brand');
