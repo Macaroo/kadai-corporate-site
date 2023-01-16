@@ -209,6 +209,7 @@
 .news-lists {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .news-items {
