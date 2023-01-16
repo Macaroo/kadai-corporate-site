@@ -235,6 +235,7 @@
 .SDGs-inner {
     background-color: #f7f7f7;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .SDGs-title {
@@ -249,8 +250,6 @@
 }
 
 .SDGs-item {
-    display: flex;
-    flex-wrap: wrap;
     list-style: none;
 }
 
