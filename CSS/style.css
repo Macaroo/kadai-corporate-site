@@ -188,6 +188,7 @@
 .news-title {
     width: 75px;
     height: 21px;
+    margin-bottom: 34px;
     font-size: 28px;
     font-weight: 900;
     line-height: 0.71;
@@ -197,7 +198,6 @@
 
 .news-list {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .news-item {
@@ -214,6 +214,7 @@
 .news-items {
     width: 263px;
     height: 176px;
+    margin-left: 32px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -223,6 +224,7 @@
     font-size: 16px;
     line-height: 1.72;
     text-align: left;
+    margin-bottom: 53px;
     color: #524e4d;
 }
 
@@ -232,11 +234,13 @@
 ---------------------------- */
 .SDGs-inner {
     background-color: #f7f7f7;
+    display: flex;
 }
 
 .SDGs-title {
     width: 75px;
     height: 21px;
+    margin-bottom: 34px;
     font-size: 28px;
     font-weight: 900;
     line-height: 0.71;
@@ -245,7 +249,13 @@
 }
 
 .SDGs-item {
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
+}
+
+.SDGs-item__text {
+    margin-bottom: 42px;
 }
 
 .SDGs-link,
@@ -271,6 +281,7 @@
 .company-title {
     font-size: 28px;
     font-weight: 900;
+    margin-bottom: 34px;
     line-height: 0.71;
     color: #032533;
     text-align: left;
@@ -288,6 +299,7 @@
 .IR-title {
     font-size: 28px;
     font-weight: 900;
+    margin-bottom: 34px;
     line-height: 0.71;
     color: #032533;
     text-align: left;
@@ -305,6 +317,7 @@
 .recruit-title {
     font-size: 28px;
     font-weight: 900;
+    margin-bottom: 34px;
     line-height: 0.71;
     color: #032533;
     text-align: left;
@@ -322,6 +335,7 @@
 .brand-title {
     font-size: 28px;
     font-weight: 900;
+    margin-bottom: 34px;
     line-height: 0.71;
     color: #032533;
     text-align: left;
@@ -349,6 +363,7 @@
 .information-title {
     font-size: 28px;
     font-weight: 900;
+    margin-bottom: 34px;
     line-height: 0.71;
     color: #032533;
     text-align: left;
@@ -366,6 +381,7 @@
 .release-title {
     font-size: 28px;
     font-weight: 900;
+    margin-bottom: 34px;
     line-height: 0.71;
     color: #032533;
     text-align: left;
