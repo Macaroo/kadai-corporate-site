@@ -274,10 +274,16 @@
 ===================================== */
 /* company
 ---------------------------- */
+
+.company-IR {
+    padding: 50px 70px 110px 110px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .company-inner {
     width: 556px;
     height: 370.8px;
-    padding: 50px 70px 110px 110px;
 }
 
 .company-title {
@@ -296,7 +302,7 @@
 .IR-inner {
     width: 555.9px;
     height: 369.3px;
-    padding: 50px 70px 110px 110px;
+    margin-left: 30px;
 }
 
 .IR-title {
@@ -353,12 +359,14 @@
     align-items: center;
     width: 100%;
     margin-top: 27px;
-    margin-right: auto;
+    margin-right: 30px;
     margin-left: auto;
 }
 
-.js-brand-item:not(:nth-child(3n)) {
-    margin-right: 40px;
+.brand-item__text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 /* コンテンツスタイル
