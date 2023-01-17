@@ -408,15 +408,21 @@
 ===================================== */
 /* information
 ---------------------------- */
+/* コンテンツスタイル
+===================================== */
+/* release
+---------------------------- */
 
-.information-inner {
+.information-inner,
+.release-inner {
     padding: 50px 70px 110px 110px;
     background-color: #f7f7f7;
     display: flex;
     flex-wrap: wrap;
 }
 
-.information-title {
+.information-title,
+.release-title {
     font-size: 28px;
     font-weight: 900;
     margin-bottom: 34px;
@@ -430,7 +436,13 @@
     
 }
 
-.information-item {
+.information-item__list,
+.release-item__list {
+    flex-direction: column;
+}
+
+.information-item,
+.release-item {
     display: flex;
     flex-wrap: wrap;
 }
@@ -443,33 +455,6 @@
 .information-item__text,
 .release-item__text {
     margin-left: 21px;
-}
-
-/* コンテンツスタイル
-===================================== */
-/* release
----------------------------- */
-
-.release-inner {
-    padding: 50px 70px 110px 110px;
-    background-color: #f7f7f7;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.release-title {
-    font-size: 28px;
-    font-weight: 900;
-    margin-bottom: 34px;
-    line-height: 0.71;
-    color: #032533;
-    text-align: left;
-}
-
-.release-item {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
 
 /* コンテンツスタイル
