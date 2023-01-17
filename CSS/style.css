@@ -412,6 +412,8 @@
 .information-inner {
     padding: 50px 70px 110px 110px;
     background-color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .information-title {
@@ -423,13 +425,19 @@
     text-align: left;
 }
 
-.information__link {
-    display: flex;
+.information__link,
+.release__link {
+    
 }
 
 .information-item {
     display: flex;
     flex-wrap: wrap;
+}
+
+.information-item__date,
+.release-item__date {
+    flex-direction: column;
 }
 
 .information-item__text,
@@ -445,6 +453,8 @@
 .release-inner {
     padding: 50px 70px 110px 110px;
     background-color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .release-title {
@@ -456,13 +466,10 @@
     text-align: left;
 }
 
-.release__link {
-    display: flex;
-}
-
 .release-item {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 /* コンテンツスタイル
