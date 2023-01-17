@@ -204,6 +204,12 @@
     padding: 50px 70px 110px 110px;
 }
 
+@media (max-width: 667.98px) {
+    .news-inner {
+        width: 100%;
+    }
+}
+
 .news-title {
     width: 75px;
     height: 21px;
@@ -213,6 +219,14 @@
     line-height: 0.71;
     text-align: left;
     color: #032533;
+}
+
+@media (max-width: 667.98px) {
+    .news__title {
+        margin-top: 80px;
+        line-height: 0.71;
+        text-align: left;
+    }
 }
 
 .news-list {
