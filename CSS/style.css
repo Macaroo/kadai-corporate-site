@@ -21,7 +21,7 @@
 
     @media (max-width: 667.98px){
     .header {
-        width: 375px;
+        width: 100%;
         height: 70px;
         padding: 24px 92px 22px 16px;
     }
@@ -31,6 +31,12 @@
     padding: 0 122px;
     align-items: center;
     height: inherit;
+}
+
+@media (max-width: 667.98px){
+    .header__inner {
+        display: none;
+    }
 }
 
 .header__logo {
@@ -62,24 +68,19 @@
     height: inherit;
 }
 
-.drawer-menu {
-}
-
     @media (min-width: 768px){
     .drawer-menu {
         display: none;
     }
 }
 
-.drawer-menu__logo {
-    background-image: url(../img/kirameki_foods_logo.png);
-}
     @media (max-width: 667.98px){
     .drawer-menu__logo {
         width: 185px;
         height: 19px;
     }
 }
+
 
 .top-kv {
     background-image: url(../img/cover_1_pc.jpg);
@@ -408,7 +409,18 @@
     text-align: left;
 }
 
+.information__link {
+    display: flex;
+}
+
 .information-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.information-item__text,
+.release-item__text {
+    margin-left: 21px;
 }
 
 /* コンテンツスタイル
@@ -430,7 +442,13 @@
     text-align: left;
 }
 
+.release__link {
+    display: flex;
+}
+
 .release-item {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* コンテンツスタイル
