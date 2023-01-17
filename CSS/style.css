@@ -473,16 +473,44 @@
     margin: 0 90px 0 405px;
 }
 
+@media screen and (max-width: 667.98px){
+    .twitter-icon {
+        width: 64px;
+        height: 64px;
+    }
+}
+
 .insta-icon {
     margin-right: 90px;
+}
+
+@media screen and (max-width: 667.98px){
+    .insta-icon {
+        width: 64px;
+        height: 64px;
+    }
 }
 
 .line-icon {
     margin-right: 90px;
 }
 
+@media screen and (max-width: 667.98px){
+    .line-icon {
+        width: 64px;
+        height: 64px;
+    }
+}
+
 .facebook-icon {
     margin: 0 405px 0 0;
+}
+
+@media screen and (max-width: 667.98px){
+    .facebook-icon {
+        width: 64px;
+        height: 64px;
+    }
 }
 
 /* コンテンツスタイル
