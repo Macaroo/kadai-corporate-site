@@ -313,6 +313,16 @@
     font-size: 16px;
 }
 
+@media screen and (max-width: 667.98px) {
+    .SDGs-link,
+    .recruit-link {
+        width: 240px;
+        height: 57px;
+        margin: 32px 51px 0 54px;
+        padding: 21px 81px;
+    }
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* company
