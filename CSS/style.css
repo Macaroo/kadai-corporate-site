@@ -112,7 +112,7 @@
 .top-kv__text {
     position: absolute;
     top: 50%;
-    transform: translate(108px,-186px);
+    transform: translate(108px,-500px);
     text-align: left;
     font-size: 36px;
     width: 100%;
@@ -127,6 +127,8 @@
     .top-kv__text {
         font-size: 26px;
         line-height: 45.5px;
+        text-align: center;
+        transform: translate(3.5px,-200px);
     }
 }
 
@@ -223,9 +225,14 @@
 
 @media screen and (max-width: 667.98px) {
     .news__title {
-        margin-top: 80px;
+        margin: 80px 286px 21px 14px;
         line-height: 0.71;
         text-align: left;
+    }
+
+    .news-item {
+        width: 100%;
+        height: auto;
     }
 }
 
