@@ -84,7 +84,7 @@
 
 .top-kv {
     background-image: url(../img/cover_1_pc.jpg);
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vw;
@@ -112,7 +112,7 @@
 .top-kv__text {
     position: absolute;
     top: 50%;
-    transform: translate(108px,-500px);
+    transform: translate(108px,-300px);
     text-align: left;
     font-size: 36px;
     width: 100%;
