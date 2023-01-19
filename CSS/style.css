@@ -427,6 +427,12 @@
     margin-left: 30px;
 }
 
+@media screen and (max-width: 667.98px) {
+    .IR-inner {
+        margin-left: 0;
+    }
+}
+
 .IR-title {
     font-size: 28px;
     font-weight: 900;
