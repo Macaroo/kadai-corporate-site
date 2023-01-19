@@ -246,6 +246,12 @@
     display: flex;
 }
 
+@media screen and (max-width: 667.98px) {
+    .news-list {
+        display: block;
+    }
+}
+
 .news-item {
     width: 558px;
     height: 372px;
@@ -258,6 +264,7 @@
 
 @media screen and (max-width: 667.98px) {
     .news-lists {
+        display: flex;
         flex-direction: column;
     }
 }
@@ -296,8 +303,27 @@
     color: #032533;
 }
 
+@media screen and (max-width: 667.98px) {
+    .SDGs-title {
+        margin: 80px 286px 21px 14px;
+        line-height: 0.71;
+        text-align: left;
+    }
+
+    .SDGs-item {
+        width: 100%;
+        height: auto;
+    }
+}
+
 .SDGs-list {
     display: flex;
+}
+
+@media screen and (max-width: 667.98px) {
+    .SDGs-list {
+        display: block;
+    }
 }
 
 .SDGs-item {
@@ -342,6 +368,12 @@
     padding: 50px 70px 110px 110px;
     display: flex;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 667.98px) {
+    .company-IR {
+        display: block;
+    }
 }
 
 .company-inner {
