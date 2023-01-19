@@ -321,6 +321,11 @@
         width: 100%;
         height: auto;
     }
+
+    .SDGs-item img {
+        width: 375px;
+        height: 249.9px;
+    }
 }
 
 .SDGs-list {
@@ -405,6 +410,11 @@
         line-height: 0.71;
         text-align: left;
     }
+
+    .company-inner img {
+        width: 375px;
+        height: 249.9px;
+    }
 }
 
 /* コンテンツスタイル
@@ -431,6 +441,11 @@
         margin: 80px 286px 21px 14px;
         line-height: 0.71;
         text-align: left;
+    }
+
+    .IR-inner img {
+        width: 375px;
+        height: 249.9px;
     }
 }
 
@@ -464,6 +479,11 @@
         margin: 80px 286px 21px 14px;
         line-height: 0.71;
         text-align: left;
+    }
+
+    .recruit-item img {
+        width: 375px;
+        height: 249.9px;
     }
 }
 
