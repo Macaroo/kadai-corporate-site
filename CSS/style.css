@@ -482,7 +482,7 @@
 
 @media screen and (max-width: 667.98px) {
     .recruit-title {
-        margin: 80px 286px 21px 14px;
+        margin: 80px 200px 21px 14px;
         line-height: 0.71;
         text-align: left;
     }
@@ -519,7 +519,7 @@
 
 @media screen and (max-width: 667.98px) {
     .brand-title {
-        margin: 80px 286px 21px 14px;
+        margin: 80px 200px 21px 14px;
         line-height: 0.71;
         text-align: left;
     }
@@ -583,7 +583,7 @@
 @media screen and (max-width: 667.98px) {
     .information-title,
     .release-inner {
-        margin: 80px 286px 21px 14px;
+        margin: 80px 200px 21px 14px;
         line-height: 0.71;
         text-align: left;
     }
