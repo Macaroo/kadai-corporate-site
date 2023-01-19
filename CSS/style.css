@@ -292,6 +292,13 @@
     width: 100%;
 }
 
+@media screen and (max-width: 667.98px) {
+    .SDGs-inner {
+        width: 100%;
+        padding: 0%;
+    }
+}
+
 .SDGs-title {
     width: 75px;
     height: 21px;
@@ -373,6 +380,8 @@
 @media screen and (max-width: 667.98px) {
     .company-IR {
         display: block;
+        width: 100%;
+        padding: 0%;
     }
 }
 
@@ -388,6 +397,14 @@
     line-height: 0.71;
     color: #032533;
     text-align: left;
+}
+
+@media screen and (max-width: 667.98px) {
+    .company-title {
+        margin: 80px 286px 21px 14px;
+        line-height: 0.71;
+        text-align: left;
+    }
 }
 
 /* コンテンツスタイル
@@ -409,6 +426,14 @@
     text-align: left;
 }
 
+@media screen and (max-width: 667.98px) {
+    .IR-title {
+        margin: 80px 286px 21px 14px;
+        line-height: 0.71;
+        text-align: left;
+    }
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* recruit
@@ -416,6 +441,13 @@
 .recruit-inner {
     background-color: #f7f7f7;
     padding: 50px 70px 110px 110px;
+}
+
+@media screen and (max-width: 667.98px) {
+    .recruit-inner {
+        width: 100%;
+        padding: 0%;
+    }
 }
 
 .recruit-title {
@@ -427,12 +459,27 @@
     text-align: left;
 }
 
+@media screen and (max-width: 667.98px) {
+    .recruit-title {
+        margin: 80px 286px 21px 14px;
+        line-height: 0.71;
+        text-align: left;
+    }
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* brand
 ---------------------------- */
 .brand-inner {
     padding: 50px 70px 110px 110px;
+}
+
+@media screen and (max-width: 667.98px) {
+    .brand-inner {
+        width: 100%;
+        padding: 0%;
+    }
 }
 
 .brand-title {
@@ -442,6 +489,14 @@
     line-height: 0.71;
     color: #032533;
     text-align: left;
+}
+
+@media screen and (max-width: 667.98px) {
+    .brand-title {
+        margin: 80px 286px 21px 14px;
+        line-height: 0.71;
+        text-align: left;
+    }
 }
 
 .js-brand-list {
@@ -481,6 +536,14 @@
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 667.98px) {
+    .information-inner,
+    .release-inner {
+        width: 100%;
+        padding: 0%;
+    }
+}
+
 .information-title,
 .release-title {
     font-size: 28px;
@@ -489,6 +552,15 @@
     line-height: 0.71;
     color: #032533;
     text-align: left;
+}
+
+@media screen and (max-width: 667.98px) {
+    .information-title,
+    .release-inner {
+        margin: 80px 286px 21px 14px;
+        line-height: 0.71;
+        text-align: left;
+    }
 }
 
 .information__link,
