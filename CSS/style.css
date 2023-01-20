@@ -395,6 +395,14 @@
     height: 370.8px;
 }
 
+@media screen and (max-width: 667.98px) {
+    .company-inner {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
 .company-title {
     font-size: 28px;
     font-weight: 900;
@@ -430,6 +438,8 @@
 @media screen and (max-width: 667.98px) {
     .IR-inner {
         margin-left: 0;
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
@@ -468,6 +478,8 @@
     .recruit-inner {
         width: 100%;
         padding: 0%;
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
