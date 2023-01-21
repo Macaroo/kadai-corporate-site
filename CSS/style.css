@@ -472,6 +472,7 @@
 .recruit-inner {
     background-color: #f7f7f7;
     padding: 50px 70px 110px 110px;
+    width: 100%;
 }
 
 @media screen and (max-width: 667.98px) {
@@ -494,12 +495,16 @@
 
 @media screen and (max-width: 667.98px) {
     .recruit-title {
-        margin: 80px 200px 21px 14px;
+        margin: 80px 200px 29px 14px;
         line-height: 0.71;
         text-align: left;
     }
 
-    .recruit-item img {
+    .recruit-item__text {
+        margin-bottom: 45px;
+    }
+
+    .recruit-inner img {
         width: 375px;
         height: 249.9px;
     }
