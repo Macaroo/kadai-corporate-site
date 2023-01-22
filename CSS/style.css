@@ -347,8 +347,14 @@
     font-size: 16px;
     line-height: 1.72;
     text-align: left;
-    margin-bottom: 42px;
+    margin-bottom: 44px;
     color: #524e4d;
+}
+
+@media screen and (max-width: 667.98px) {
+    .SDGs-item__text {
+        margin-bottom: 42px;
+    }
 }
 
 .SDGs-link,
