@@ -729,6 +729,17 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 667.98px){
+    .footer-nav__items {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .footer-nav__item {
+        margin-top: 20px;
+    }
+}
+
 .footer-nav__item {
     margin: auto;
     height: inherit;
