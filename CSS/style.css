@@ -472,6 +472,8 @@
 .recruit-inner {
     background-color: #f7f7f7;
     padding: 50px 70px 110px 110px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 667.98px) {
@@ -492,6 +494,10 @@
     text-align: left;
 }
 
+.recruit-item__text {
+    margin-bottom: 44px;
+}
+
 @media screen and (max-width: 667.98px) {
     .recruit-title {
         margin: 80px 200px 29px 14px;
@@ -500,7 +506,7 @@
     }
 
     .recruit-item__text {
-        margin-bottom: 45px;
+        margin-bottom: 42px;
     }
 
     .recruit-inner img {
