@@ -598,8 +598,6 @@
 .release-inner {
     padding: 50px 70px 110px 110px;
     background-color: #f7f7f7;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 667.98px) {
@@ -608,6 +606,11 @@
         width: 100%;
         padding: 0%;
     }
+}
+
+.information__link {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .information-title,
