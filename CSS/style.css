@@ -685,7 +685,7 @@
 }
 
 @media screen and (max-width: 667.98px){
-    .twitter-icon {
+    .twitter-icon img {
         width: 64px;
         height: 64px;
         margin-right: 28px;
@@ -698,7 +698,7 @@
 }
 
 @media screen and (max-width: 667.98px){
-    .insta-icon {
+    .insta-icon img {
         width: 64px;
         height: 64px;
         margin-right: 28px;
@@ -710,7 +710,7 @@
 }
 
 @media screen and (max-width: 667.98px){
-    .line-icon {
+    .line-icon img {
         width: 64px;
         height: 64px;
         margin-right: 28px;
@@ -722,7 +722,7 @@
 }
 
 @media screen and (max-width: 667.98px){
-    .facebook-icon {
+    .facebook-icon img {
         width: 64px;
         height: 64px;
         margin-right: 17px;
