@@ -634,10 +634,10 @@
     .release-title {
         margin-top: 80px;
     }
-}
 
-.release__link {
-    margin-top: 80px;
+    .release__link {
+        margin-top: 80px;
+    }
 }
 
 .information-item__list,
