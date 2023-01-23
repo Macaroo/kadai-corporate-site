@@ -264,6 +264,12 @@
 
 @media screen and (max-width: 667.98px) {
     .news-lists {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 667.98px) {
+    .news-lists {
         display: flex;
         flex-direction: column;
     }
@@ -341,6 +347,12 @@
 .SDGs-item {
     display: flex;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 667.98px) {
+    .SDGs-item {
+        flex-direction: column;
+    }
 }
 
 .SDGs-item__text {
