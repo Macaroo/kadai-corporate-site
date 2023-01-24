@@ -675,51 +675,54 @@
 }
 
 .twitter-icon {
-    margin: 0 90px 0 405px;
+    padding-right: 90px;
 }
 
 @media screen and (max-width: 667.98px){
+    .twitter-icon {
+        padding-right: 28px;
+    }
+
     .twitter-icon img {
         width: 64px;
         height: 64px;
-        margin-right: 28px;
-        margin-left: 16px;
     }
 }
 
 .insta-icon {
-    margin-right: 90px;
+    padding-right: 90px;
 }
 
 @media screen and (max-width: 667.98px){
+    .insta-icon {
+        padding-right: 28px;
+    }
+
     .insta-icon img {
         width: 64px;
         height: 64px;
-        margin-right: 28px;
     }
 }
 
 .line-icon {
-    margin-right: 90px;
+    padding-right: 90px;
 }
 
 @media screen and (max-width: 667.98px){
+    .line-icon {
+        padding-right: 28px;
+    }
+
     .line-icon img {
         width: 64px;
         height: 64px;
-        margin-right: 28px;
     }
-}
-
-.facebook-icon {
-    margin: 0 405px 0 0;
 }
 
 @media screen and (max-width: 667.98px){
     .facebook-icon img {
         width: 64px;
         height: 64px;
-        margin-right: 17px;
     }
 }
 
