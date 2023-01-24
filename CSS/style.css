@@ -659,6 +659,17 @@
     margin-left: 21px;
 }
 
+@media screen and (max-width: 667.98px) {
+    .information-item__text::after,
+    .release-item__text::after {
+        content: "";
+        width: 45px;
+        height: 1px;
+        margin: 41px 83px 30px 0;
+        background-color: #c4c4c4;
+    }
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* sns
