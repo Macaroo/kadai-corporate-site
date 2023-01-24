@@ -665,6 +665,7 @@
 ---------------------------- */
 .sns-inner {
     text-align: center;
+    margin: auto;
 }
 
 @media screen and (max-width: 667.98px){
