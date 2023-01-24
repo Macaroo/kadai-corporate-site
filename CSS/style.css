@@ -620,7 +620,7 @@
 
 @media screen and (max-width: 667.98px) {
     .information-title {
-        margin: 80px 200px 21px 14px;
+        margin: 0 20px 29px 1px;
         line-height: 0.71;
         text-align: left;
     }
