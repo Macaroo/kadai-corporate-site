@@ -666,12 +666,7 @@
 .sns-inner {
     text-align: center;
     margin: auto;
-}
-
-@media screen and (max-width: 667.98px){
-    .sns-inner {
-        width: 100%;
-    }
+    width: 100%;
 }
 
 .sns-title {
