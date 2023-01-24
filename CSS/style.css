@@ -652,14 +652,26 @@
 .information-item__date,
 .release-item__date {
     flex-direction: column;
+    margin: 32px 0 23px 21px;
 }
 
 .information-item__text,
 .release-item__text {
-    margin-left: 21px;
+    margin: 32px 0 23px 21px;
 }
 
 @media screen and (max-width: 667.98px) {
+
+    .information-item__date,
+    .release-item__date {
+        margin-bottom: 23px;;
+    }
+
+    .information-item__text,
+    .release-item__text {
+        margin-bottom: 23px;
+    }
+
     .information-item__text::after,
     .release-item__text::after {
         content: "";
