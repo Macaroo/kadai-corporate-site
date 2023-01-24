@@ -677,6 +677,7 @@
         content: "";
         width: 45px;
         height: 1px;
+        display: block;
         margin: 41px 83px 30px 0;
         background-color: #c4c4c4;
     }
