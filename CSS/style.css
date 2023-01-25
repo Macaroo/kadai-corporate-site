@@ -286,6 +286,13 @@
     color: #524e4d;
 }
 
+@media screen and (max-width: 667.98px) {
+    .news-items__text {
+        width: 146px;
+        margin-left: 30px;
+    }
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* SDGs
