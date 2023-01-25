@@ -369,7 +369,7 @@
 
 @media screen and (max-width: 667.98px) {
     .SDGs-item__text {
-        width: 146px;
+        width: 100%;
         margin-bottom: 42px;
     }
 }
@@ -378,6 +378,7 @@
 .recruit-link {
     width: 245px;
     height: 57px;
+    display: block;
     margin: 42px 330px 105px 19px;
     padding: 22px 82px 21px;
     background-color: #0d5f80;
