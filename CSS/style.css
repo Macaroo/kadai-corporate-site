@@ -327,15 +327,6 @@
         line-height: 0.71;
         text-align: left;
     }
-
-    .SDGs-items {
-        display: flex;
-    }
-
-    .SDGs-items img {
-        width: 375px;
-        height: 249.9px;
-    }
 }
 
 .SDGs-list {
@@ -345,6 +336,10 @@
 @media screen and (max-width: 667.98px) {
     .SDGs-list {
         display: block;
+    }
+
+    .SDGs-items {
+        display: flex;
     }
 
     .SDGs-items__link {
@@ -363,7 +358,8 @@
     margin: auto;
 }
 
-.SDGs-item__text {
+.SDGs-item__text,
+.SDGs-items__text {
     font-size: 16px;
     line-height: 1.72;
     text-align: left;
@@ -373,6 +369,7 @@
 
 @media screen and (max-width: 667.98px) {
     .SDGs-item__text {
+        width: 146px;
         margin-bottom: 42px;
     }
 }
