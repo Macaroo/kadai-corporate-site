@@ -328,11 +328,11 @@
         text-align: left;
     }
 
-    .SDGs-item {
+    .SDGs-items {
         display: flex;
     }
 
-    .SDGs-item img {
+    .SDGs-items img {
         width: 375px;
         height: 249.9px;
     }
@@ -347,21 +347,20 @@
         display: block;
     }
 
-    .SDGs-item__link {
+    .SDGs-items__link {
         display: flex;
     }
 
-    .SDGs-item__link img {
+    .SDGs-items__link img {
         width: 157.5px;
         height: 105px;
     }
 }
 
-.SDGs-item {
+.SDGs-items {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    margin-left: 32px;
 }
 
 .SDGs-item__text {
