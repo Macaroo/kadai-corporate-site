@@ -39,8 +39,8 @@
     }
 }
 
-.header__logo {
-    margin: 10px 70px 70px 250px;
+.header__logo img {
+    margin: 30px 500px 60px 500px;
     width: 293px;
     height: 30px;
 }
@@ -75,7 +75,7 @@
 }
 
 @media screen and (max-width: 667.98px){
-    .drawer-menu__logo {
+    .drawer-menu__logo img {
         width: 185px;
         height: 19px;
     }
