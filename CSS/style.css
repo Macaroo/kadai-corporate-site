@@ -79,6 +79,10 @@
 }
 
 @media screen and (max-width: 667.98px){
+    .drawer-menu__logo {
+        padding: 0 0 22px 60px;
+    }
+
     .drawer-menu__logo img {
         width: 185px;
         height: 19px;
