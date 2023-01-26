@@ -602,6 +602,12 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 667.98px) {
+    .brand-item__text {
+        margin-bottom: 74px;
+    }
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* information
@@ -637,7 +643,7 @@
 
 @media screen and (max-width: 667.98px) {
     .information-title {
-        margin: 0 20px 29px 1px;
+        margin: 50px 20px 29px 1px;
         line-height: 0.71;
         text-align: left;
     }
