@@ -788,20 +788,20 @@
     margin-top: 29px;
 }
 
-@media screen and (max-width: 667.98px){
-    .footer-nav__items {
-        display: block;
-        margin-top: 20px;
-    }
-
-    .footer-nav__item {
-        margin-top: 20px;
-    }
-}
-
 .footer-nav__item {
     margin: auto;
     height: inherit;
+}
+
+@media screen and (max-width: 667.98px){
+    .footer-nav__items {
+        display: block;
+    }
+
+    .footer-nav__link {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
 }
 
 .footer__company {
