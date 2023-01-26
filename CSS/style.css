@@ -39,8 +39,12 @@
     }
 }
 
+.header__logo {
+    padding: 30px 300px 0;
+}
+
 .header__logo img {
-    margin: 30px 500px 60px 500px;
+    margin: 0 50px 49px 148px;
     width: 293px;
     height: 30px;
 }
