@@ -197,6 +197,13 @@
     z-index: 1;
 }
 
+@media screen and (min-width: 768px) {
+    .drawer-menu__logo img {
+        width: 185px;
+        height: 19px;
+    }
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* news
