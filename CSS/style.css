@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.html {
+html {
     font-family: 'Noto Sans JP' , 'sans-serif';
 }
 
@@ -661,9 +661,6 @@
 }
 
 .js-brand-item {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     width: 100%;
     margin-top: 27px;
     margin-right: 30px;
