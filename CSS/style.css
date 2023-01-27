@@ -585,21 +585,44 @@
 ===================================== */
 /* ceo
 ---------------------------- */
+.ceo-inner img {
+    width: 682px;
+    height: 512px;
+    vertical-align: bottom;
+}
 
 /* コンテンツスタイル
 ===================================== */
 /* vision
 ---------------------------- */
+.vision-inner {
+    background-image: url(../img/vision_bg.jpg);
+    width: 100%;
+    height: 768px;
+    padding: 98px 305px 300px 306px;
+    background-repeat: no-repeat;
+}
 
 /* コンテンツスタイル
 ===================================== */
 /* office
 ---------------------------- */
+.office-inner {
+
+}
 
 /* コンテンツスタイル
 ===================================== */
 /* interview
 ---------------------------- */
+.interview-inner {
+    flex-direction: row-reverse;
+}
+
+.interview-inner img {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* コンテンツスタイル
 ===================================== */
