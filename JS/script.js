@@ -23,7 +23,14 @@ var waypoint = new Waypoint({
     handler: function(direction) {
     console.log('Scrolled to waypoint!')
     }
-})
+});
 
 //スライダー
-new Swiper('js-brand-item');
+new Swiper('js-brand-item' {
+    loop: true, //ループさせる
+    effect: "fade", //フェードのエフェクト
+    autoplay: {
+      delay: 4000, //４秒後に次の画像へ
+      disableOnInteraction: false //ユーザー操作後に自動再生を再開する
+    },
+});
