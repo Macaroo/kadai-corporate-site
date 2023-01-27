@@ -72,47 +72,6 @@ html {
     height: inherit;
 }
 
-@media screen and (min-width: 768px){
-    .drawer-menu {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 667.98px){
-    .drawer-menu {
-        width: 280px;
-        height: 812px;
-        margin: 0 95px 0 0;
-        padding: 70px 0 381px;
-        background-color: #fff;
-    }
-
-    .drawer-menu__logo {
-        margin: 1px 38px 4px 0;
-        padding: 25px 174px 26px 16px;
-    }
-
-    .drawer-menu__logo img {
-        width: 185px;
-        height: 19px;
-    }
-
-    .drawer-logo__link a {
-        width: 77px;
-        height: 20px;
-        margin: 19px 187px 20px 16px;
-        line-height: 1.36;
-        color: #524e4d;
-    }
-
-    .drawer-logo__link::after,
-    .drawer-menu__items::after {
-        width: 280px;
-        height: 1px;
-        margin: 20px 0 59px;
-    }
-}
-
 
 .top-kv {
     background-image: url(../img/cover_1_pc.jpg);
@@ -227,6 +186,47 @@ html {
     width: 100%;
     padding: 14px 0;
     z-index: 1;
+}
+
+@media screen and (min-width: 768px){
+    .drawer-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 667.98px){
+    .drawer-menu {
+        width: 280px;
+        height: 812px;
+        margin: 0 95px 0 0;
+        padding: 70px 0 381px;
+        background-color: #fff;
+    }
+
+    .drawer-menu__logo {
+        margin: 1px 38px 4px 0;
+        padding: 25px 174px 26px 16px;
+    }
+
+    .drawer-menu__logo img {
+        width: 185px;
+        height: 19px;
+    }
+
+    .drawer-logo__link a {
+        width: 77px;
+        height: 20px;
+        margin: 19px 187px 20px 16px;
+        line-height: 1.36;
+        color: #524e4d;
+    }
+
+    .drawer-logo__link::after,
+    .drawer-menu__items::after {
+        width: 280px;
+        height: 1px;
+        margin: 20px 0 59px;
+    }
 }
 
 @media screen and (min-width: 768px) {
