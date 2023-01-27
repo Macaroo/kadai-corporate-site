@@ -165,6 +165,20 @@ html {
     top: 16px;
 }
 
+.hamburger .is-active span:first-child {
+    top: 15px;
+    transform: rotate(-45deg);
+}
+
+.hamburger .is-active span:nth-child(2) {
+    top: 15px;
+}
+
+.hamburger .is-active span:nth-child(2) {
+    top: 15px;
+    transform: rotate(45deg);
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* drawer

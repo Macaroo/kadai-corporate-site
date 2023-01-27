@@ -1,20 +1,9 @@
 //ハンバーガーメニュー
 $(function () {
-    $('#js-drawer').click(function () {
+    $('.js-hamburger, .js-drawer, .js-drawer a').click(function () {
     //toggleClassでclassをつけたり外したりする
-    $('body').toggleClass('is-drawerActive')
-    //attr()でaria-expandedがfalseの場合、thisはクリックした要素そのもの
-    if ($(this).attr('aria-expanded') == 'false') {
-    $(this).attr('aria-expanded', true)
-    //jQueryでcss操作、アニメーションにはdisplayではなく、visibilityを使う
-    $('#drawer-menu').css('visibility', 'visible')
-    $('#drawer-menu').attr('aria-hidden','false')
-} else {
-    $(this).attr('aria-expanded', false)
-    $('#drawer-menu').css('visibility', 'hidden')
-    $('#drawer-menu').attr('aria-hidden','true')
-    }
-})
+    $('.js-hamburger').toggleClass('is-active')
+    $('.js-hamburger').fadeToggle();
 });
 
 // フェードイン
@@ -27,10 +16,11 @@ var waypoint = new Waypoint({
 
 //スライダー
 new Swiper('js-brand-list', {
-    loop: true, //ループさせる
-    effect: "fade", //フェードのエフェクト
-    autoplay: {
-      delay: 4000, //４秒後に次の画像へ
-      disableOnInteraction: false //ユーザー操作後に自動再生を再開する
-    },
+        loop: true, //ループさせる
+        effect: "fade", //フェードのエフェクト
+        autoplay: {
+        delay: 4000, //４秒後に次の画像へ
+        disableOnInteraction: false //ユーザー操作後に自動再生を再開する
+        },
+    });
 });
