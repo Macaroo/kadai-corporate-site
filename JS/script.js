@@ -26,7 +26,7 @@ var waypoint = new Waypoint({
 });
 
 //スライダー
-new Swiper('js-brand-item' {
+new Swiper('js-brand-item', {
     loop: true, //ループさせる
     effect: "fade", //フェードのエフェクト
     autoplay: {
