@@ -72,7 +72,6 @@ html {
     height: inherit;
 }
 
-
 .top-kv {
     background-image: url(../img/cover_1_pc.jpg);
     background-position: center;
@@ -213,13 +212,12 @@ html {
         width: 280px;
         height: 812px;
         margin: 0 95px 0 0;
-        padding: 70px 0 381px;
         background-color: #fff;
     }
 
     .drawer-menu__logo {
         margin: 1px 38px 4px 0;
-        padding: 25px 174px 26px 16px;
+        padding: 0 174px 26px 16px;
     }
 
     .drawer-menu__logo img {
@@ -235,11 +233,16 @@ html {
         color: #524e4d;
     }
 
-    .drawer-logo__link::after,
-    .drawer-menu__items::after {
+    .drawer-menu__logo a::after,
+    .drawer-menu__item a::after {
         width: 280px;
         height: 1px;
         margin: 20px 0 59px;
+    }
+
+    .drawer-menu__items {
+        font-size: 20px;
+        padding: 19px 80px 20px 16px;
     }
 }
 

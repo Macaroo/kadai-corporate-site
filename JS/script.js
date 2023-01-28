@@ -1,6 +1,6 @@
 //ハンバーガーメニュー
 $(function () {
-    $('.js-hamburger, .js-drawer, .js-drawer a').click(function () {
+    $('.js-hamburger, .js-drawer').click(function () {
     //toggleClassでclassをつけたり外したりする
     $('.js-hamburger').toggleClass('is-active')
     $('.js-hamburger').fadeToggle();
