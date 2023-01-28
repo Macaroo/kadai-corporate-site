@@ -201,12 +201,6 @@ html {
     z-index: 1;
 }
 
-@media screen and (min-width: 768px){
-    .drawer-menu {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 667.98px){
     .drawer-menu {
         width: 280px;
