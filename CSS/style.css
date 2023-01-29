@@ -651,6 +651,36 @@ html {
     width: 682px;
     height: 512px;
     vertical-align: bottom;
+    flex-direction: row-reverse;
+}
+
+.ceo-title {
+    width: 338px;
+    height: 38px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 0.42;
+    text-align: center;
+    color: #1f2774;
+}
+
+.ceo-name {
+    width: 150px;
+    height: 35px;
+    font-size: 36px;
+    line-height: 0.56;
+    text-align: center;
+    color: #1f2774;
+}
+
+.ceo-content {
+    width: 132px;
+    height: 31px;
+    font-size: 12px;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align-last: left;
+    color: #1f2774;
 }
 
 /* コンテンツスタイル
@@ -706,7 +736,18 @@ html {
 /* office
 ---------------------------- */
 .office-inner {
+    flex-direction: row;
+}
 
+.office-title {
+    width: 171px;
+    height: 38px;
+    text-shadow: 3.5px 3.5px 5px #fff;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 0.42;
+    text-align: center;
+    color: #1f2774;
 }
 
 /* コンテンツスタイル
@@ -720,6 +761,17 @@ html {
 .interview-inner img {
     display: flex;
     flex-wrap: wrap;
+}
+
+.interview-title {
+    width: 266px;
+    height: 37px;
+    text-shadow: 3.5px 3.5px 5px #fff;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 0.42;
+    text-align: center;
+    color: #1f2774;
 }
 
 /* コンテンツスタイル
@@ -793,10 +845,26 @@ html {
 /* cta
 ---------------------------- */
 
+.cta-text {
+    text-align: center;
+}
+
+.cta-link {
+    text-align: center;
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* contact
 ---------------------------- */
+
+.contact-text {
+    text-align: center;
+}
+
+.contact-link {
+    text-align: center;
+}
 
 /* コンテンツスタイル
 ===================================== */
