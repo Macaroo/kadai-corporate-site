@@ -175,7 +175,7 @@ html {
 }
 
 .hamburger .is-active span:nth-child(2) {
-    opacity: 0;
+    display: none;
 }
 
 .hamburger .is-active span:nth-child(3) {
