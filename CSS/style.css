@@ -34,7 +34,7 @@ html {
 }
 
 @media screen and (max-width: 667.98px){
-    .header__inner {
+    .header__nav {
         display: none;
     }
 }
@@ -47,6 +47,22 @@ html {
     margin: 0 50px 49px 148px;
     width: 293px;
     height: 30px;
+}
+
+@media screen and (max-width: 667.98px){
+    .header__logo {
+        margin: auto;
+        padding: 24px 92px 22px 16px;
+    }
+
+    .header__logo img {
+        margin: -24px 92px 22px -80px;
+    }
+
+    .header-logo__link img {
+        width: 185px;
+        height: 19px;
+    }
 }
 
 .header__nav {
@@ -190,7 +206,9 @@ html {
 }
 
 .hamburger .is-active {
-    right: 20px;
+    width: 21px;
+    height: 21px;
+    margin: 1px 23px 2px 38px;
 }
 
 .hamburger.is-active span:first-child {
