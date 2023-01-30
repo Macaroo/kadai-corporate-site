@@ -124,6 +124,28 @@ html {
 
 /* コンテンツスタイル
 ===================================== */
+/* recruit-kv
+---------------------------- */
+
+.recruit-kv__inner {
+    background-image: url(../img/cover_03.jpg);
+    animation-name: moveBg;
+    animation-duration: 600s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveBg {
+    from {
+        background-position: 20000px;
+    }
+    to {
+        background-position: 0px;
+    }
+}
+
+/* コンテンツスタイル
+===================================== */
 /* hamburger
 ---------------------------- */
 
