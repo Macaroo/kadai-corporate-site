@@ -654,11 +654,17 @@ html {
 ===================================== */
 /* ceo
 ---------------------------- */
+
+.ceo-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .ceo-inner img {
     width: 682px;
     height: 512px;
     vertical-align: bottom;
-    flex-direction: row-reverse;
 }
 
 .ceo-title {
@@ -743,6 +749,8 @@ html {
 /* office
 ---------------------------- */
 .office-inner {
+    width: 100%;
+    display: flex;
     flex-direction: row;
 }
 
@@ -762,7 +770,9 @@ html {
 /* interview
 ---------------------------- */
 .interview-inner {
-    flex-direction: row-reverse;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .interview-inner img {
