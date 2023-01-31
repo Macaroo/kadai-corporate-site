@@ -282,9 +282,9 @@ html {
         content: "";
         width: 280px;
         height: 1px;
-        margin: 20px 0 59px;
+        margin: 20px -15px 30px;
         display: block;
-        color: #524e4d;
+        background-color: #f7f7f7;
     }
 
     .drawer-menu__items {
