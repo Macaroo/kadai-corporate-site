@@ -227,6 +227,11 @@ html {
     transform: rotate(45deg);
 }
 
+.hamburger.drawer-menu {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 /* コンテンツスタイル
 ===================================== */
 /* drawer
