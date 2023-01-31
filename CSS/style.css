@@ -233,7 +233,6 @@ html {
 ---------------------------- */
 
 .drawer-menu {
-    display: block;
     align-items: center;
 }
 
@@ -278,6 +277,7 @@ html {
 
     .drawer-menu__logo a::after,
     .drawer-menu__item a::after {
+        content: "";
         width: 280px;
         height: 1px;
         margin: 20px 0 59px;
