@@ -146,7 +146,9 @@ html {
 .recruit-kv__inner {
     width: 100%;
     height: 66vw;
-    background: transparent url(../img/cover_02.jpg) center / cover;
+    background-image: url(../img/cover_02.jpg), url(../img/cover_03.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center , center;
     animation-name: moveBg;
     animation-duration: 600s;
     animation-timing-function: linear;
