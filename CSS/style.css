@@ -258,8 +258,8 @@ html {
     }
 
     .drawer-menu__logo {
-        margin: 1px 38px 4px 0;
-        padding: 0 174px 26px 16px;
+        margin: -69px 38px -50px 0;
+        padding: 0 174px 26px 58px;
         display: flex;
         flex-direction: column-reverse;
     }
