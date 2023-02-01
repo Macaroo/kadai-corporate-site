@@ -269,8 +269,6 @@ html {
     .drawer-menu__logo {
         margin: -69px 38px -50px 0;
         padding: 0 174px 26px 58px;
-        display: flex;
-        flex-direction: column-reverse;
     }
 
     .drawer-menu__logo img {
