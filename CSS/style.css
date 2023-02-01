@@ -760,6 +760,7 @@ html {
     width: 100%;
     height: 768px;
     padding: 98px 305px 300px 306px;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
