@@ -228,10 +228,12 @@ html {
     transform: rotate(45deg);
 }
 
-.hamburger.is-active,
-.drawer-menu {
-    display: flex;
-    flex-direction: column-reverse;
+@media screen and (max-width: 667.98px){
+    .hamburger.is-active,
+    .drawer-menu__logo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 /* コンテンツスタイル
