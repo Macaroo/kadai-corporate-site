@@ -241,9 +241,7 @@ html {
 ---------------------------- */
 
 .drawer__inner {
-    width: 280px;
-    height: 812px;
-    background-color: #fff;
+    
 }
 
 
@@ -413,21 +411,21 @@ html {
 ===================================== */
 /* SDGs
 ---------------------------- */
-.SDGs-inner {
+.sdgs-inner {
     background-color: #f7f7f7;
     padding: 50px 70px 110px 110px;
     width: 100%;
 }
 
 @media screen and (max-width: 667.98px) {
-    .SDGs-inner {
+    .sdgs-inner {
         width: 100%;
         height: 660px;
         padding: 0%;
     }
 }
 
-.SDGs-title {
+.sdgs-title {
     width: 75px;
     height: 21px;
     margin-bottom: 34px;
@@ -439,45 +437,45 @@ html {
 }
 
 @media screen and (max-width: 667.98px) {
-    .SDGs-title {
+    .sdgs-title {
         margin: 80px 286px 21px 14px;
         line-height: 0.71;
         text-align: left;
     }
 }
 
-.SDGs-list {
+.sdgs-list {
     display: flex;
 }
 
 @media screen and (max-width: 667.98px) {
-    .SDGs-list {
+    .sdgs-list {
         display: block;
     }
 
-    .SDGs-items {
+    .sdgs-items {
         display: flex;
     }
 
-    .SDGs-items__link {
+    .sdgs-items__link {
         display: flex;
     }
 
-    .SDGs-items__link img {
+    .sdgs-items__link img {
         width: 157.5px;
         height: 105px;
         margin-bottom: 81.3px;
     }
 }
 
-.SDGs-items {
+.sdgs-items {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
 }
 
-.SDGs-item__text,
-.SDGs-items__text {
+.sdgs-item__text,
+.sdgs-items__text {
     font-size: 16px;
     line-height: 1.72;
     text-align: left;
@@ -486,15 +484,15 @@ html {
 }
 
 @media screen and (max-width: 667.98px) {
-    .SDGs-item__text {
+    .sdgs-item__text {
         width: 100%;
         margin-bottom: 42px;
     }
 }
 
-.SDGs-link,
+.sdgs-link,
 .recruit-link,
-.sp-SDGs-link {
+.sp-sdgs-link {
     width: 245px;
     height: 57px;
     display: block;
@@ -507,19 +505,19 @@ html {
 }
 
 @media screen and (min-width: 768px){
-    .sp-SDGs-link {
+    .sp-sdgs-link {
         display: none;
     }
 }
 
 @media screen and (max-width: 667.98px) {
     .recruit-link,
-    .sp-SDGs-link {
+    .sp-sdgs-link {
         margin: 32px 50px 50px 40px;
         padding: 21px 81px;
     }
 
-    .SDGs-link {
+    .sdgs-link {
         display: none;
     }
 }
@@ -529,14 +527,14 @@ html {
 /* company
 ---------------------------- */
 
-.company-IR {
+.company__IR {
     padding: 50px 70px 110px 110px;
     display: flex;
     flex-wrap: wrap;
 }
 
 @media screen and (max-width: 667.98px) {
-    .company-IR {
+    .company__IR {
         display: block;
         width: 100%;
         padding: 0%;
