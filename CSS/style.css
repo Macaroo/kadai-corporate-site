@@ -527,14 +527,14 @@ html {
 /* company
 ---------------------------- */
 
-.company__IR {
+.company {
     padding: 50px 70px 110px 110px;
     display: flex;
     flex-wrap: wrap;
 }
 
 @media screen and (max-width: 667.98px) {
-    .company__IR {
+    .company {
         display: block;
         width: 100%;
         padding: 0%;
