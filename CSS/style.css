@@ -240,6 +240,13 @@ html {
 /* drawer
 ---------------------------- */
 
+.drawer__inner {
+    width: 280px;
+    height: 812px;
+    background-color: #fff;
+}
+
+
 .drawer-menu {
     align-items: center;
 }
@@ -250,7 +257,7 @@ html {
     }
 }
 
-.drawer__inner {
+.drawer-menu__inner {
     position: fixed;
     width: 100%;
     padding: 14px 0;
@@ -266,7 +273,7 @@ html {
     }
 
     .drawer-menu__logo {
-        margin: -69px 38px -50px 0;
+        margin: -95px 38px -50px 0;
         padding: 0 174px 26px 58px;
     }
 
