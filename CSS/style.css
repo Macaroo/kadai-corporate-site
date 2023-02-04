@@ -266,8 +266,8 @@ html {
     }
 
     .drawer-menu__logo {
-        margin: -95px 38px -50px 0;
-        padding: 0 174px 26px 58px;
+        margin: 10px 38px 5px 5px;
+        padding: 0 10px 5px 45px;
     }
 
     .drawer-menu__logo img {
