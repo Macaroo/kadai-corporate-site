@@ -262,7 +262,7 @@ html {
     .drawer-menu {
         width: 280px;
         height: 812px;
-        padding: 50px 95px 0 0;
+        padding: 10px 95px 0 10px;
     }
 
     .drawer-menu__logo {
