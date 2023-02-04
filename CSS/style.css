@@ -56,7 +56,7 @@ html {
     }
 
     .header__logo img {
-        margin: -24px 92px 22px -95px;
+        margin: -24px 92px 22px -80px;
     }
 
     .header-logo__link img {
@@ -242,6 +242,7 @@ html {
 
 .drawer-menu {
     align-items: center;
+    background-color: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -261,8 +262,7 @@ html {
     .drawer-menu {
         width: 280px;
         height: 812px;
-        margin: 0 95px 0 -15px;
-        background-color: #fff;
+        padding: 50px 95px 0 0;
     }
 
     .drawer-menu__logo {
