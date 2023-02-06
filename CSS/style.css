@@ -88,6 +88,17 @@ html {
     height: inherit;
 }
 
+main {
+    display: block;
+    padding-top: 150px;
+}
+
+@media screen and (max-width: 667.98px) {
+    main {
+        padding-top: 70px;
+    }
+}
+
 .top-kv {
     background-image: url(../img/cover_1_pc.jpg);
     background-position: center;
@@ -117,11 +128,8 @@ html {
 
 .top-kv__text {
     position: absolute;
-    top: 50%;
-    transform: translate(108px,-300px);
     text-align: left;
     font-size: 36px;
-    width: 100%;
     line-height: 1.75;
     letter-spacing: 0.05em;
     font-weight: 900;
@@ -134,7 +142,6 @@ html {
         font-size: 26px;
         line-height: 45.5px;
         text-align: center;
-        transform: translate(3.5px,-200px);
     }
 }
 
