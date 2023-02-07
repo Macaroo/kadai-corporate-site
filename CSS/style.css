@@ -44,7 +44,7 @@ html {
 }
 
 .header__logo img {
-    margin: 0 50px 49px 148px;
+    margin: 0 50px 49px 113px;
     width: 293px;
     height: 30px;
 }
@@ -127,6 +127,7 @@ main {
 }
 
 .top-kv__text {
+    padding: 36px 0 0 108px;
     position: absolute;
     text-align: left;
     font-size: 36px;
