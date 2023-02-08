@@ -28,7 +28,7 @@ html {
 }
 
 .header__inner {
-    padding: 0 122px;
+    padding: 0 80px;
     align-items: center;
     height: inherit;
 }
@@ -44,7 +44,7 @@ html {
 }
 
 .header__logo img {
-    margin: 0 50px 49px 113px;
+    margin: 0 50px 49px 153px;
     width: 293px;
     height: 30px;
 }
