@@ -364,6 +364,7 @@ main {
 
 .news-list {
     display: flex;
+    padding-top: 23px;
 }
 
 @media screen and (max-width: 667.98px) {
