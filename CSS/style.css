@@ -28,7 +28,7 @@ html {
 }
 
 .header__inner {
-    padding: 0 80px;
+    padding: 0 108px;
     align-items: center;
     height: inherit;
 }
@@ -40,11 +40,11 @@ html {
 }
 
 .header__logo {
-    padding: 30px 300px 0;
+    padding-top: 30px;
+    text-align: center;
 }
 
 .header__logo img {
-    margin: 0 50px 49px 153px;
     width: 293px;
     height: 30px;
 }
@@ -72,11 +72,10 @@ html {
 
 .header-nav__items {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .header-nav__item {
-    margin: auto;
     height: inherit;
 }
 
