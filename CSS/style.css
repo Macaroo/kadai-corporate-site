@@ -126,12 +126,12 @@ main {
 }
 
 .top-kv__text {
-    padding: 36px 0 0 108px;
+    padding: 23px 0 0 108px;
     position: absolute;
     text-align: left;
     font-size: 36px;
     line-height: 1.75;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.01em;
     font-weight: 900;
     text-shadow: 3.5px 3.5px 5px rgba(0, 0, 0, 0.3);
     color: #ffefef;
@@ -961,7 +961,7 @@ main {
 
 .information-inner,
 .release-inner {
-    padding: 50px 70px 110px 110px;
+    padding: 50px 70px 0 110px;
     background-color: #f7f7f7;
 }
 
