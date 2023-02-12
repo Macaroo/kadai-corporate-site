@@ -399,7 +399,7 @@ main {
 }
 
 .news-items__text {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.72;
     text-align: left;
     margin-bottom: 35px;
@@ -481,7 +481,7 @@ main {
 
 .sdgs-item__text,
 .sdgs-items__text {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.72;
     text-align: left;
     margin-bottom: 10px;
