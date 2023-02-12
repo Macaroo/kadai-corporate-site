@@ -477,7 +477,6 @@ main {
 .sdgs-items {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
 }
 
 .sdgs-item__text,
