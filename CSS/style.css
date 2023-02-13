@@ -322,7 +322,7 @@ main {
 ---------------------------- */
 
 .news-inner {
-    padding: 50px 70px 110px 110px;
+    padding: 50px 81px 53px 110px;
 }
 
 @media screen and (max-width: 667.98px) {
@@ -402,7 +402,7 @@ main {
     font-size: 12px;
     line-height: 1.72;
     text-align: left;
-    margin-bottom: 35px;
+    margin-bottom: 52px;
     color: #524e4d;
 }
 
