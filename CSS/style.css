@@ -633,7 +633,7 @@ main {
 ---------------------------- */
 .recruit-inner {
     background-color: #f7f7f7;
-    padding: 98px 96px 110px 105px;
+    padding: 65px 96px 110px 105px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -868,7 +868,7 @@ main {
 /* brand
 ---------------------------- */
 .brand-inner {
-    padding: 5px 70px 110px 110px;
+    padding: 15px 70px 110px 110px;
 }
 
 @media screen and (max-width: 667.98px) {
@@ -912,7 +912,7 @@ main {
 
 .js-brand-item {
     width: 100%;
-    margin-top: 27px;
+    margin-top: 5px;
     margin-right: 30px;
     margin-left: auto;
 }
