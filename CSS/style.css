@@ -377,6 +377,11 @@ main {
     height: 372px;
 }
 
+.news-item p {
+    padding: 20px 0 0 20px;
+    letter-spacing: normal;
+}
+
 @media screen and (max-width: 667.98px) {
     .news-items__link {
         display: flex;
@@ -480,7 +485,7 @@ main {
 }
 
 .sdgs-item__text {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.72;
     text-align: left;
     color: #524e4d;
@@ -657,6 +662,7 @@ main {
 }
 
 .recruit-item__text {
+    font-size: 20px;
     margin-bottom: 44px;
 }
 
