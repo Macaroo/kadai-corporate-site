@@ -379,7 +379,7 @@ main {
 
 .news-item p {
     padding: 20px 0 0 20px;
-    letter-spacing: normal;
+    letter-spacing: 0.08em;
 }
 
 @media screen and (max-width: 667.98px) {
