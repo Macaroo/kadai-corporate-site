@@ -488,6 +488,7 @@ main {
     font-size: 20px;
     line-height: 1.72;
     text-align: left;
+    width: 250px;
     color: #524e4d;
 }
 
@@ -662,6 +663,7 @@ main {
 }
 
 .recruit-item__text {
+    width: 250px;
     font-size: 20px;
     margin-bottom: 44px;
 }
