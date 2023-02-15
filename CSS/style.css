@@ -1146,10 +1146,10 @@ main {
     display: flex;
     align-items: center;
     margin-top: 29px;
+    justify-content: space-between;
 }
 
 .footer-nav__item {
-    margin: auto;
     height: inherit;
 }
 
