@@ -490,6 +490,8 @@ main {
     text-align: left;
     width: 250px;
     color: #524e4d;
+    padding-top: 13px;
+    padding-left: 10px;
 }
 
 .sdgs-items__text {
@@ -513,7 +515,7 @@ main {
     width: 245px;
     height: 57px;
     display: block;
-    margin: 90px 330px 105px 19px;
+    margin: 30px 330px 105px 20px;
     padding: 22px 82px 21px;
     background-color: #0d5f80;
     color: #fff;
@@ -665,6 +667,8 @@ main {
 .recruit-item__text {
     width: 250px;
     font-size: 20px;
+    padding-top: 13px;
+    padding-left: 10px;
     margin-bottom: 44px;
 }
 
@@ -929,6 +933,7 @@ main {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    padding-top: 20px;
 }
 
 @media screen and (max-width: 667.98px) {
