@@ -1040,7 +1040,7 @@ main {
 
 .information-item__text:first-child,
 .release-item__text:first-child {
-    margin: 25px 0 0 20px;
+    margin: 28px 0 0 20px;
 }
 
 @media screen and (max-width: 667.98px) {
