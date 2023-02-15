@@ -1032,15 +1032,15 @@ main {
     flex-wrap: wrap;
 }
 
-.information-item__date,
-.release-item__date {
+.information-item__date:first-child,
+.release-item__date:first-child {
     flex-direction: column;
-    margin: 32px 0 23px 21px;
+    margin-top: 28px;
 }
 
 .information-item__text,
 .release-item__text {
-    margin: 32px 0 23px 21px;
+    margin: 25px 0 0 20px;
 }
 
 @media screen and (max-width: 667.98px) {
