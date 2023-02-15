@@ -1038,8 +1038,8 @@ main {
     margin-top: 28px;
 }
 
-.information-item__text,
-.release-item__text {
+.information-item__text:first-child,
+.release-item__text:first-child {
     margin: 25px 0 0 20px;
 }
 
@@ -1144,7 +1144,7 @@ main {
 
 .footer-nav__items {
     display: flex;
-    justify-content: center;
+    align-items: center;
     margin-top: 29px;
 }
 
@@ -1166,4 +1166,5 @@ main {
 
 .footer__company {
     font-size: 10px;
+    padding-top: 35px;
 }
