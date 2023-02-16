@@ -1001,6 +1001,11 @@ main {
     text-align: left;
 }
 
+.information__link,
+.release__link {
+    padding-left: 9px;
+}
+
 @media screen and (max-width: 667.98px) {
     .information-title {
         margin: 50px 20px 29px 1px;
