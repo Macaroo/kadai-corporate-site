@@ -977,9 +977,13 @@ main {
 /* release
 ---------------------------- */
 
-.information-inner,
-.release-inner {
+.information-inner {
     padding: 60px 70px 0 110px;
+    background-color: #f7f7f7;
+}
+
+.release-inner {
+    padding: 30px 70px 30px 110px;
     background-color: #f7f7f7;
 }
 
