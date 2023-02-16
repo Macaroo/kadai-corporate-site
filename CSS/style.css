@@ -1040,14 +1040,14 @@ main {
 
 .information-item__text:first-child,
 .release-item__text:first-child {
-    margin: 28px 0 0 20px;
+    margin-top: 28px;
 }
 
 @media screen and (max-width: 667.98px) {
 
     .information-item__date,
     .release-item__date {
-        margin-bottom: 23px;;
+        margin-bottom: 23px;
     }
 
     .information-item__text,
