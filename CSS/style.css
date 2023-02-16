@@ -1145,7 +1145,8 @@ p.release-item__text {
 .footer-nav__items {
     display: flex;
     align-items: center;
-    margin-top: 29px;
+    margin-top: 25px;
+    padding: 0 110px;
     justify-content: space-between;
 }
 
