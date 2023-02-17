@@ -503,8 +503,11 @@ main {
 .sdgs-items__text {
     font-size: 12px;
     line-height: 1.72;
+    letter-spacing: 0.1em;
     text-align: left;
+    margin-top: 10px;
     margin-bottom: 10px;
+    width: 290px;
     color: #524e4d;
 }
 
