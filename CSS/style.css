@@ -461,6 +461,8 @@ main {
 
 .sdgs-item {
     width: 520px;
+    padding-top: 35px;
+
 }
 
 @media screen and (max-width: 667.98px) {
