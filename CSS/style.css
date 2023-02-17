@@ -459,6 +459,10 @@ main {
     display: flex;
 }
 
+.sdgs-item {
+    width: 520px;
+}
+
 @media screen and (max-width: 667.98px) {
     .sdgs-list {
         display: block;
