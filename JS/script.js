@@ -21,7 +21,7 @@ const swiper = new Swiper('.js-brand-list', {
 var waypoint = new Waypoint({
     element: document.getElementById('waypoint'),
     handler: function(direction) {
-    console.log('Scrolled to waypoint!')
+        console.log('Scrolled to waypoint!')
     }
-});
+})
 
