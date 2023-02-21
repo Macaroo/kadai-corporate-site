@@ -116,7 +116,7 @@ main {
 @media screen and (max-width: 667.98px) {
     .top-kv {
         background-image: url(../img/cover_1_sp.jpg);
-        height: 660px;
+        height: 740px;
     }
 }
 
@@ -346,6 +346,7 @@ main {
 
 @media screen and (max-width: 667.98px) {
     .news-title {
+        font-size: 28px;
         margin: 80px 286px 21px 14px;
         line-height: 0.71;
         text-align: left;
@@ -450,6 +451,7 @@ main {
 
 @media screen and (max-width: 667.98px) {
     .sdgs-title {
+        font-size: 28px;
         margin: 80px 286px 21px 14px;
         line-height: 0.71;
         text-align: left;
@@ -586,6 +588,7 @@ main {
 
 @media screen and (max-width: 667.98px) {
     .company-title {
+        font-size: 28px;
         margin: 80px 286px 21px 14px;
         line-height: 0.71;
         text-align: left;
@@ -626,6 +629,7 @@ main {
 
 @media screen and (max-width: 667.98px) {
     .IR-title {
+        font-size: 28px;
         margin: 80px 286px 21px 14px;
         line-height: 0.71;
         text-align: left;
@@ -676,6 +680,7 @@ main {
 
 @media screen and (max-width: 667.98px) {
     .recruit-title {
+        font-size: 28px;
         margin: 80px 200px 29px 14px;
         line-height: 0.71;
         text-align: left;
@@ -903,6 +908,7 @@ main {
 
 @media screen and (max-width: 667.98px) {
     .brand-title {
+        font-size: 28px;
         margin: 80px 200px 21px 14px;
         line-height: 0.71;
         text-align: left;
@@ -1014,6 +1020,7 @@ main {
 
 @media screen and (max-width: 667.98px) {
     .information-title {
+        font-size: 28px;
         margin: 50px 20px 29px 1px;
         line-height: 0.71;
         text-align: left;
@@ -1024,6 +1031,7 @@ main {
     }
 
     .release-title {
+        font-size: 28px;
         margin-top: 80px;
     }
 
