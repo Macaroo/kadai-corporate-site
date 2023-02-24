@@ -143,6 +143,8 @@ main {
         font-size: 26px;
         line-height: 45.5px;
         text-align: center;
+        padding-left:  20px;
+        padding-top: 20px;
     }
 }
 
@@ -385,6 +387,11 @@ main {
 }
 
 @media screen and (max-width: 667.98px) {
+    .news-item {
+        width: 558px;
+        height: 345px;
+    }
+
     .news-items__link {
         display: flex;
     }
@@ -402,7 +409,7 @@ main {
 
 .news-items {
     width: 263px;
-    margin-left: 32px;
+    margin-left: 15px;
 }
 
 .news-items__text {
@@ -681,7 +688,7 @@ main {
 @media screen and (max-width: 667.98px) {
     .recruit-title {
         font-size: 28px;
-        margin: 80px 200px 29px 14px;
+        margin: 30px 200px 29px 14px;
         line-height: 0.71;
         text-align: left;
     }
@@ -1181,6 +1188,7 @@ p.release-item__text {
     .footer-nav__link {
         margin-top: 20px;
         margin-bottom: 30px;
+        display: block;
     }
 }
 
