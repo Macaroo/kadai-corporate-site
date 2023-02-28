@@ -447,6 +447,7 @@ main {
     .sdgs-inner {
         width: 100%;
         padding: 0%;
+        padding-bottom: 20px;
     }
 }
 
