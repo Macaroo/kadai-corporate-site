@@ -482,7 +482,7 @@ main {
     }
 
     .sdgs-items {
-        display: flex;
+        margin-left: 15px;
     }
 
     .sdgs-items__link {
@@ -523,7 +523,7 @@ main {
 @media screen and (max-width: 667.98px) {
     .sdgs-item__text {
         width: 100%;
-        margin-bottom: 42px;
+        margin-bottom: 30px;
     }
 }
 
