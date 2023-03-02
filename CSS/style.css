@@ -332,6 +332,7 @@ main {
     .news-inner {
         width: 100%;
         padding: 0%;
+        padding-bottom: 40px;
     }
 }
 
@@ -447,7 +448,6 @@ main {
     .sdgs-inner {
         width: 100%;
         padding: 0%;
-        padding-bottom: 20px;
     }
 }
 
@@ -466,7 +466,7 @@ main {
     .sdgs-title {
         font-size: 28px;
         margin: 0 286px 21px 14px;
-        padding-top: 90px;
+        padding-top: 50px;
         line-height: 0.71;
         text-align: left;
     }
