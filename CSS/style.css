@@ -521,7 +521,7 @@ main {
 }
 
 @media screen and (max-width: 667.98px) {
-    .sdgs-item__text {
+    .sdgs-items__text {
         width: 100%;
         margin: 5px 5px 10px 33px;
     }
