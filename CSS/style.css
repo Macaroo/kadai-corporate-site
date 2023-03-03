@@ -483,7 +483,7 @@ main {
 
     .sdgs-items {
         margin-left: 15px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .sdgs-items__link {
@@ -510,6 +510,7 @@ main {
     color: #524e4d;
     padding-top: 13px;
     padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .sdgs-items__text {
