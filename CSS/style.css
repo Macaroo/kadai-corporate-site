@@ -552,7 +552,7 @@ main {
 @media screen and (max-width: 667.98px) {
     .recruit-link,
     .sp-sdgs-link {
-        margin: 32px 50px 50px 40px;
+        margin: 0 50px 50px 40px;
         padding: 21px 81px;
     }
 
@@ -605,7 +605,7 @@ main {
 @media screen and (max-width: 667.98px) {
     .company-title {
         font-size: 28px;
-        margin: 0 286px 21px 14px;
+        margin: -50px 286px 15px 14px;
         padding-top: 80px;
         line-height: 0.71;
         text-align: left;
@@ -647,7 +647,7 @@ main {
 @media screen and (max-width: 667.98px) {
     .IR-title {
         font-size: 28px;
-        margin: 0 286px 21px 14px;
+        margin: -50px 286px 15px 14px;
         padding-top: 80px;
         line-height: 0.71;
         text-align: left;
@@ -674,6 +674,7 @@ main {
     .recruit-inner {
         width: 100%;
         padding: 0%;
+        padding-top: 20px;
         display: flex;
         flex-direction: column-reverse;
     }
@@ -700,7 +701,7 @@ main {
     .recruit-title {
         font-size: 28px;
         margin: 0 200px 29px 14px;
-        padding-top: 30px;
+        padding-top: 75px;
         line-height: 0.71;
         text-align: left;
     }
