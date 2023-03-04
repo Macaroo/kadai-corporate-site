@@ -144,7 +144,7 @@ main {
         line-height: 45.5px;
         text-align: center;
         padding-left: 5px;
-        padding-top: 20px;
+        padding-top: 70px;
     }
 }
 
@@ -525,7 +525,7 @@ main {
 @media screen and (max-width: 667.98px) {
     .sdgs-items__text {
         width: 100%;
-        margin: 5px 5px 10px 33px;
+        margin: 0px 5px 10px 33px;
     }
 }
 
