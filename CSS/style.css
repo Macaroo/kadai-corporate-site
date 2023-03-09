@@ -909,8 +909,18 @@ main {
     padding: 100px 70px 110px 110px;
 }
 
+@media screen and (min-width: 768px) {
+    .sp-brand-inner {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 667.98px) {
     .brand-inner {
+        display: none;
+    }
+
+    .sp-brand-inner {
         width: 100%;
         padding: 0%;
     }
