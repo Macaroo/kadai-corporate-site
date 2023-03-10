@@ -448,6 +448,7 @@ main {
     .sdgs-inner {
         width: 100%;
         padding: 0%;
+        padding-bottom: 1px;
     }
 }
 
@@ -1060,7 +1061,7 @@ main {
     }
 
     .release-inner {
-        margin: auto;
+        padding-top: 10px;
     }
 
     .release-title {
@@ -1096,6 +1097,11 @@ p.release-item__text {
 }
 
 @media screen and (max-width: 667.98px) {
+    .information-item__list,
+    .release-item__list {
+        padding-top: 20px;
+    }
+
 
     .information-item__date,
     .release-item__date {
@@ -1105,6 +1111,7 @@ p.release-item__text {
     .information-item__text,
     .release-item__text {
         margin-bottom: 23px;
+        margin: 0 0 23px 15px;
     }
 
     .information-item__text::after,
@@ -1138,6 +1145,10 @@ p.release-item__text {
 }
 
 @media screen and (max-width: 667.98px){
+    .sns-title {
+        margin: 50px 0 45px 0;
+    }
+
     .twitter-icon {
         padding-right: 28px;
     }
@@ -1207,14 +1218,23 @@ p.release-item__text {
 }
 
 @media screen and (max-width: 667.98px){
+    .footer-inner {
+        margin: 45px 0 50px 0;
+    }
+
     .footer-nav__items {
         display: block;
+        padding: 0;
     }
 
     .footer-nav__link {
         margin-top: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         display: block;
+    }
+
+    .footer__company {
+        padding-top: 5px;
     }
 }
 

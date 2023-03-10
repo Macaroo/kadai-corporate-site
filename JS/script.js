@@ -19,7 +19,7 @@ const swiper = new Swiper('.js-brand-list', {
 
 // フェードイン
 var waypoint = new Waypoint({
-    element: document.getElementById('waypoint'),
+    element: document.getElementById('animate'),
     handler: function(direction) {
         console.log('Scrolled to waypoint!')
     }
