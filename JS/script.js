@@ -6,15 +6,6 @@ $(function () {
     $(".js-drawer").fadeToggle();
 });
 
-//スライダー
-var swiper = new Swiper('.swiper', {
-    loop: true,
-    autoplay: {
-      delay: 5000,
-    },
-    speed: 1000,
-});
-
 // フェードイン
 $('.fadeIn').waypoint({
     handler: function (direction) {
@@ -25,5 +16,15 @@ $('.fadeIn').waypoint({
     },
     offset: '50%',
 });
+
+//スライダー
+var swiper = new Swiper('.swiper', {
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+  speed: 1000,
+});
+
 });
 
