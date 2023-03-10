@@ -672,7 +672,7 @@ main {
     .recruit-inner {
         width: 100%;
         padding: 0%;
-        padding-top: 20px;
+        margin-top: 75px;
         display: flex;
         flex-direction: column-reverse;
     }
@@ -711,7 +711,6 @@ main {
 
     .recruit-inner img {
         width: 375px;
-        padding-top: 55px;
     }
 }
 
@@ -938,7 +937,7 @@ main {
 @media screen and (max-width: 667.98px) {
     .brand-title {
         font-size: 28px;
-        margin: 80px 200px 21px 14px;
+        margin: 65px 200px 21px 14px;
         line-height: 0.71;
         text-align: left;
     }
@@ -974,6 +973,10 @@ main {
 }
 
 @media screen and (max-width: 667.98px) {
+    .js-brand-list {
+        margin-left: 10px;
+    }
+
     .brand-item__text {
         margin-bottom: 74px;
     }
@@ -1029,6 +1032,7 @@ main {
     .release-inner {
         width: 100%;
         padding: 0%;
+        padding-top: 50px;
     }
 }
 
