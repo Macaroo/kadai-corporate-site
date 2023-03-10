@@ -7,21 +7,23 @@ $(function () {
 });
 
 //スライダー
-const swiper = new Swiper('.js-brand-list', {
-    loop: true, //ループさせる
-    effect: "fade", //フェードのエフェクト
+var swiper = new Swiper('.swiper', {
+    loop: true,
     autoplay: {
-    delay: 2000, //2秒後に次の画像へ
-    disableOnInteraction: false, //ユーザー操作後に自動再生を再開する
+      delay: 5000,
     },
-});
+    speed: 1000,
 });
 
 // フェードイン
-var waypoint = new Waypoint({
-    element: document.getElementById('animate'),
-    handler: function(direction) {
-        console.log('Scrolled to waypoint!')
-    }
-})
+$('.fadeIn').waypoint({
+    handler: function (direction) {
+      if (direction === 'down') {
+        $(this.element).addClass('animate__fadeIn');
+        this.destroy();
+      }
+    },
+    offset: '50%',
+});
+});
 
