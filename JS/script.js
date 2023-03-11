@@ -18,7 +18,7 @@ $('.fadeIn').waypoint({
 });
 
 //スライダー
-var swiper = new Swiper('.swiper-wrapper', {
+const swiper = new Swiper('.swiper', {
   loop: true,
   autoplay: {
     delay: 5000,
