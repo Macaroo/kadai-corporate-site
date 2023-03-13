@@ -416,7 +416,7 @@ main {
 
 .news-items {
     width: 263px;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .news-items__text {
@@ -553,7 +553,7 @@ main {
 @media screen and (max-width: 667.98px) {
     .recruit-link,
     .sp-sdgs-link {
-        margin: 0 50px 50px 40px;
+        margin: 0 50px 50px 60px;
         padding: 21px 81px;
     }
 
@@ -978,6 +978,10 @@ main {
         margin-left: 10px;
     }
 
+    .swiper-slide {
+        width: 250px;
+    }
+
     .swiper-slide .img {
         width: 100%;
         margin-top: 5px;
@@ -1055,16 +1059,15 @@ main {
 }
 
 @media screen and (max-width: 667.98px) {
-    .information-title,
-    .release-title {
-        margin-left: 10px
-    }
-
     .information-title {
         font-size: 28px;
-        margin: 50px 20px 29px 1px;
+        margin: 50px 20px 29px 14px;
         line-height: 0.71;
         text-align: left;
+    }
+
+    .release-title {
+        margin-left: 10px
     }
 }
 
