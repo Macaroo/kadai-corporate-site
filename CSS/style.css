@@ -19,7 +19,7 @@ html {
     height: 150px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
     .header {
         width: 100%;
         height: 70px;
@@ -33,7 +33,7 @@ html {
     height: inherit;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
     .header__nav {
         display: none;
     }
@@ -49,7 +49,7 @@ html {
     height: 30px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
     .header__logo {
         margin: auto;
         padding: 24px 92px 22px 16px;
@@ -92,7 +92,7 @@ main {
     padding-top: 150px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     main {
         padding-top: 70px;
     }
@@ -113,7 +113,7 @@ main {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .top-kv {
         background-image: url(../img/cover_1_sp.jpg);
         height: 740px;
@@ -138,7 +138,7 @@ main {
     color: #ffefef;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .top-kv__text {
         font-size: 26px;
         line-height: 45.5px;
@@ -237,7 +237,7 @@ main {
     transform: rotate(45deg);
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
     .hamburger.is-active,
     .drawer-menu__logo {
         display: flex;
@@ -268,7 +268,7 @@ main {
     z-index: 1;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
     .drawer-menu {
         width: 280px;
         height: 812px;
@@ -328,7 +328,7 @@ main {
     padding: 50px 81px 53px 110px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .news-inner {
         width: 100%;
         padding: 0%;
@@ -347,7 +347,7 @@ main {
     color: #032533;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .news-title {
         font-size: 28px;
         margin: 80px 286px 21px 14px;
@@ -371,7 +371,7 @@ main {
     padding-top: 23px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .news-list {
         display: block;
     }
@@ -387,7 +387,7 @@ main {
     letter-spacing: 0.08em;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .news-item {
         width: 558px;
         height: 345px;
@@ -433,7 +433,7 @@ main {
     color: #524e4d;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .news-items__text {
         width: 146px;
         margin-left: 30px;
@@ -450,7 +450,7 @@ main {
     width: 100%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .sdgs-inner {
         width: 100%;
         padding: 0%;
@@ -469,7 +469,7 @@ main {
     color: #032533;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .sdgs-title {
         font-size: 28px;
         margin: 0 286px 21px 14px;
@@ -483,7 +483,7 @@ main {
     display: flex;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .sdgs-list {
         display: block;
     }
@@ -529,7 +529,7 @@ main {
     color: #524e4d;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .sdgs-items__text {
         width: 100%;
         margin: 0px 5px 10px 33px;
@@ -556,7 +556,7 @@ main {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .recruit-link,
     .sp-sdgs-link {
         margin: 0 50px 50px 65px;
@@ -579,7 +579,7 @@ main {
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .company {
         display: block;
         width: 100%;
@@ -592,7 +592,7 @@ main {
     height: 370.8px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .company-inner {
         margin-left: 0;
         display: flex;
@@ -609,7 +609,7 @@ main {
     text-align: left;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .company-title {
         font-size: 28px;
         margin: 0 286px 15px 14px;
@@ -633,7 +633,7 @@ main {
     margin-left: 30px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .IR-inner {
         margin-left: 0;
         display: flex;
@@ -650,7 +650,7 @@ main {
     text-align: left;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .IR-title {
         font-size: 28px;
         margin: 20px 286px 15px 14px;
@@ -679,7 +679,7 @@ main {
     width: 552.8px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .recruit-inner {
         width: 100%;
         padding: 0%;
@@ -710,7 +710,7 @@ main {
     margin-bottom: 44px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .recruit-title {
         font-size: 28px;
         margin: 0 200px 29px 14px;
@@ -925,7 +925,7 @@ main {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .brand-inner {
         display: none;
     }
@@ -945,7 +945,7 @@ main {
     text-align: left;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .brand-title {
         font-size: 28px;
         margin: 65px 200px 21px 14px;
@@ -983,7 +983,7 @@ main {
     padding-top: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .swiper-wrapper {
         margin-left: 10px;
     }
@@ -1049,7 +1049,7 @@ main {
     background-color: #f7f7f7;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .information-inner,
     .release-inner {
         width: 100%;
@@ -1068,7 +1068,7 @@ main {
     text-align: left;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .information-title {
         font-size: 28px;
         margin: 50px 20px 29px 14px;
@@ -1086,7 +1086,7 @@ main {
     padding-left: 9px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
 
     .release-inner {
         padding-top: 10px;
@@ -1124,7 +1124,7 @@ p.release-item__text {
     margin: 0 0 20px 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     .information-item__list,
     .release-item__list {
         padding-top: 20px;
@@ -1176,7 +1176,7 @@ p.release-item__text {
     padding-right: 90px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
     .sns-title {
         margin: 50px 0 45px 0;
     }
@@ -1195,7 +1195,7 @@ p.release-item__text {
     padding-right: 90px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
     .insta-icon {
         padding-right: 28px;
     }
@@ -1210,7 +1210,7 @@ p.release-item__text {
     padding-right: 90px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
     .line-icon {
         padding-right: 28px;
     }
@@ -1221,7 +1221,7 @@ p.release-item__text {
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
     .facebook-icon img {
         width: 64px;
         height: 64px;
@@ -1249,7 +1249,7 @@ p.release-item__text {
     height: inherit;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
     .footer__inner {
         margin: 45px 0 50px 0;
     }
@@ -1271,7 +1271,7 @@ p.release-item__text {
     padding-top: 35px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
     .footer__company {
     padding-top: 5px;
     }
