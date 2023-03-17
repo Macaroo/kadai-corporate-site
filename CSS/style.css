@@ -988,10 +988,6 @@ main {
         margin-left: 10px;
     }
 
-    .swiper-slide {
-        width: 250px;
-    }
-
     .swiper-slide .img {
         width: 100%;
         margin-top: 5px;
