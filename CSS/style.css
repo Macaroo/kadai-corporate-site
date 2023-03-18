@@ -675,10 +675,6 @@ main {
     flex-wrap: wrap;
 }
 
-.recruit-inner img {
-    width: 552.8px;
-}
-
 @media screen and (max-width: 767.98px) {
     .recruit-inner {
         width: 100%;
