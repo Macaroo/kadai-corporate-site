@@ -574,7 +574,7 @@ main {
 ---------------------------- */
 
 .company {
-    padding: 100px 70px 160px 110px;
+    padding: 85px 70px 160px 110px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -670,7 +670,7 @@ main {
 ---------------------------- */
 .recruit-inner {
     background-color: #f7f7f7;
-    padding: 50px 96px 65px 105px;
+    padding: 65px 96px 65px 105px;
     display: flex;
     flex-wrap: wrap;
 }
