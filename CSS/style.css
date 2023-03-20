@@ -325,7 +325,9 @@ main {
 ---------------------------- */
 
 .news-inner {
-    padding: 50px 81px 53px 110px;
+    padding: 50px 0 53px 0;
+    width: 1150px;
+    margin: auto;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -444,10 +446,15 @@ main {
 ===================================== */
 /* SDGs
 ---------------------------- */
-.sdgs-inner {
+#sdgs {
     background-color: #f7f7f7;
-    padding: 60px 77px 70px 104px;
     width: 100%;
+}
+
+.sdgs-inner {
+    padding: 60px 0 70px 0;
+    width: 1150px;
+    margin: auto;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -574,9 +581,11 @@ main {
 ---------------------------- */
 
 .company {
-    padding: 85px 70px 160px 110px;
+    padding: 85px 0 160px 0;
     display: flex;
     flex-wrap: wrap;
+    width: 1150px;
+    margin: auto;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -668,11 +677,17 @@ main {
 ===================================== */
 /* recruit
 ---------------------------- */
-.recruit-inner {
+#recruit {
     background-color: #f7f7f7;
-    padding: 65px 96px 65px 105px;
+    width: 100%;
+}
+
+.recruit-inner {
+    padding: 65px 0 65px 0;
     display: flex;
     flex-wrap: wrap;
+    width: 1150px;
+    margin: auto;
 }
 
 @media screen and (max-width: 767.98px) {
