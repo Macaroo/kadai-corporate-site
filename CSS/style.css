@@ -1009,6 +1009,10 @@ main {
     .brand-item__text {
         margin-bottom: 74px;
     }
+
+    .swiper-slide {
+        width: 265px;
+    }
 }
 
 /* コンテンツスタイル
