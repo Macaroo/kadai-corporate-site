@@ -21,6 +21,11 @@ $('.fadeIn').waypoint({
 const swiper = new Swiper('.swiper', {
   slidesPerView: "auto",
   spaceBetween: 30,
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+  speed: 1000,
 });
 
 });
