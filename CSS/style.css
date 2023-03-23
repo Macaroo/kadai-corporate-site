@@ -405,7 +405,7 @@ main {
 
     .news-items__link {
         display: flex;
-        width: 350px;
+        width: 767px;
     }
 
     .news-items__link img {
