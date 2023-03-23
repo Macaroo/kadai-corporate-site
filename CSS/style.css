@@ -657,7 +657,7 @@ main {
 @media screen and (max-width: 767px) {
     .IR-title {
         font-size: 28px;
-        margin: 20px 286px 15px 14px;
+        margin: 25px 286px 5px 14px;
         padding-top: 1px;
         line-height: 0.71;
         text-align: left;
