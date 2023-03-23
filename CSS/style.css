@@ -431,6 +431,7 @@ main {
     line-height: 1.72;
     text-align: left;
     margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 52px;
     color: #524e4d;
 }
@@ -1146,6 +1147,7 @@ p.release-item__text {
 
     .information-item__date,
     .release-item__date {
+        margin-left: 15px;
         margin-bottom: 23px;
     }
 
@@ -1157,7 +1159,7 @@ p.release-item__text {
 
     p.information-item__text,
     p.release-item__text {
-    margin: 0 0 0 20px;
+    margin: 0 20px 0 20px;
 }
 
     .information-item__text::after,
