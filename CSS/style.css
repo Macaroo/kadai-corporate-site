@@ -255,12 +255,6 @@ main {
     background-color: #fff;
 }
 
-@media screen and (min-width: 768px) {
-    .drawer-menu {
-        display: none;
-    }
-}
-
 .drawer-menu__inner {
     position: fixed;
     width: 100%;
