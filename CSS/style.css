@@ -1086,7 +1086,7 @@ main {
 @media screen and (max-width: 767px) {
     .information-title {
         font-size: 28px;
-        margin: 50px 20px 29px 14px;
+        margin: 50px 10px 29px 14px;
         line-height: 0.71;
         text-align: left;
     }
@@ -1105,6 +1105,7 @@ main {
 
     .release-inner {
         padding-top: 10px;
+        padding-bottom: 5px;
     }
 
     .release-title {
@@ -1149,7 +1150,7 @@ p.release-item__text {
 @media screen and (max-width: 767px) {
     .information-item__list,
     .release-item__list {
-        padding-top: 20px;
+        padding-top: 25px;
     }
 
     .information-item__date,
@@ -1167,7 +1168,8 @@ p.release-item__text {
     p.information-item__text,
     p.release-item__text {
     margin: 0 20px 0 20px;
-}
+    padding-bottom: 30px;
+    }
 
     .information-item__text::after,
     .release-item__text::after {
@@ -1175,7 +1177,7 @@ p.release-item__text {
         width: 45px;
         height: 1px;
         display: block;
-        margin: 41px 83px 30px 0;
+        margin: 41px 83px 0 0;
         background-color: #c4c4c4;
     }
 }
@@ -1201,7 +1203,7 @@ p.release-item__text {
 
 @media screen and (max-width: 767px){
     .sns-title {
-        margin: 50px 0 45px 0;
+        margin: 40px 0 45px 0;
     }
 
     .twitter-icon {
