@@ -1143,7 +1143,9 @@ main {
 }
 
 p.information-item__text,
-p.release-item__text {
+p.release-item__text,
+p.information-item__text__no-line,
+p.release-item__text__no-line {
     margin: 0 0 20px 20px;
 }
 
@@ -1166,7 +1168,9 @@ p.release-item__text {
     }
 
     p.information-item__text,
-    p.release-item__text {
+    p.release-item__text,
+    p.information-item__text__no-line,
+    p.release-item__text__no-line {
     margin: 0 20px 0 20px;
     padding-bottom: 30px;
     }
@@ -1181,14 +1185,8 @@ p.release-item__text {
         background-color: #c4c4c4;
     }
 
-    p.information-item__text.no-line,
-    p.release-item__text.no-line {
-    margin: 0 20px 0 20px;
-    padding-bottom: 30px;
-    }
-
-    p.information-item__text.no-line::after,
-    p.release-item__text.no-line::after {
+    p.information-item__text__no-line::after,
+    p.release-item__text__no-line::after {
     margin: 0;
     background: none;
     }
