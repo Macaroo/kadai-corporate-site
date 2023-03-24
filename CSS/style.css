@@ -1104,8 +1104,8 @@ main {
 @media screen and (max-width: 767px) {
 
     .release-inner {
-        padding-top: 10px;
-        padding-bottom: 5px;
+        padding-top: 50px;
+        padding-bottom: 35px;
     }
 
     .release-title {
@@ -1213,7 +1213,7 @@ p.release-item__text__no-line {
 
 @media screen and (max-width: 767px){
     .sns-title {
-        margin: 40px 0 45px 0;
+        margin: 55px 0 45px 0;
     }
 
     .twitter-icon {
