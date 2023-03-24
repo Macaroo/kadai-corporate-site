@@ -420,6 +420,12 @@ main {
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 767px) {
+    .news-lists {
+        display: block;
+    }
+}
+
 .news-items__text {
     font-size: 12px;
     line-height: 1.72;
@@ -1121,6 +1127,13 @@ main {
 .release-item {
     display: flex;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+    .information-item,
+    .release-item {
+        display: block;
+    }
 }
 
 .information-item__date,
