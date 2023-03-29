@@ -4,10 +4,12 @@ header {
 
 #main {
     background-color: #ccffcc;
+    width: 700px;
 }
 
 #menu {
     background-color: #ccccff;
+    width: 300px;
 }
 
 footer {
