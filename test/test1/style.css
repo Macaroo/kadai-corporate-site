@@ -2,6 +2,10 @@ header {
     background-color: #ffcccc;
 }
 
+#wrapper {
+    display: flex;
+}
+
 #main {
     background-color: #ccffcc;
     width: 700px;
